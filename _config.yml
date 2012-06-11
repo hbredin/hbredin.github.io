@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Code by Herve Bredin et al.
+title : Hervé Bredin
 tagline: reproducible research
 author :
   name : Herve Bredin

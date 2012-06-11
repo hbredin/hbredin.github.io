@@ -1,0 +1,15 @@
+---
+layout: page
+title: "Reproducible Research"
+description: "Reproducible research"
+tagline: "Papers and associated code"
+group: "navigation"
+---
+{% include JB/setup %}
+
+{% assign posts_list = site.tags.reproducible_research %}
+{% for post in posts_list  %}
+	<li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+{% assign posts_list = nil %}
+

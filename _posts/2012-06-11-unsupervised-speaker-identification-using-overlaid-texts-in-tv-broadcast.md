@@ -15,7 +15,13 @@ InterSpeech 2012 | September 9-13, 2012 | Porland, Oregon.
 
 ----
 
-The electronic version of the paper and all the necessary material (source code and data) to reproduce the results reported in Tables 3 to 6 is available for download here (coming soon).
+All the necessary material (source code and data) to reproduce the results reported in Tables 3 to 6 will be available for download here when the data is officially and freely distributed by the organizers of the [REPERE challenge](http://www.defi-repere.fr/) (ETA: January/February 2013).
+
+**Please drop me an email if you'd like me to send you an update when the groundtruth annotation is available.**
+
+Until then, the archive below contains everything but the groundtruth annotation (and the script is therefore not fully functional).
+
+Download [interspeech2012.tar.gz](/download/interspeech2012.tar.gz).
 
 ----
 

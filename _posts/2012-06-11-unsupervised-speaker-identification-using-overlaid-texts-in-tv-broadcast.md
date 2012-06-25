@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "Unsupervised Speaker Identification using Overlaid Texts in TV Broadcast"
+tagline: InterSpeech 2012
 description: "Interspeech 2012"
 category: 
-tags: [reproducible_research]
+- publications
+tags: 
+- reproducible_research
 ---
 {% include JB/setup %}
 
@@ -17,9 +20,13 @@ InterSpeech 2012 | September 9-13, 2012 | Porland, Oregon.
 
 All the necessary material (source code and data) to reproduce the results reported in Tables 3 to 6 will be available for download here when the data is officially and freely distributed by the organizers of the [REPERE challenge](http://www.defi-repere.fr/) (ETA: January/February 2013).
 
-**Please drop me an email if you'd like me to send you an update when the groundtruth annotation is available.**
-
-Until then, the archive below contains everything but the groundtruth annotation (and the script is therefore not fully functional).
+<div class="alert alert-block alert-error">
+  <a class="close" data-dismiss="alert" href="#">×</a>
+  <h4 class="alert-heading">Warning!</h4>
+  The archive below contains <strong>everything but the groundtruth annotation</strong> (and the script is therefore not fully functional).
+	
+	Please <strong>drop me an email</strong> if you'd like me to send you an update when the groundtruth annotation is available.
+</div>
 
 Download [interspeech2012.tar.gz](/download/interspeech2012.tar.gz).
 

@@ -2,7 +2,7 @@
 layout: page
 title: "Publications"
 description: ""
-tagline: "last updated on August 05, 2012"
+tagline: "last updated on August 22, 2012"
 group: research
 ---
 {% include JB/setup %}
@@ -18,16 +18,16 @@ group: research
 <h3>2012</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2012a_All">
-        Community-driven Hierarchical Fusion of Numerous Classifiers: Application to Video Semantic Indexing
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseDelezoide2012_All">
+        IRIM at TRECVID 2011: Semantic Indexing and Instance Search
         </a>
     </div>
-    <div id="collapseBredin2012a_All" class="accordion-body collapse">
+    <div id="collapseDelezoide2012_All" class="accordion-body collapse">
         <div class="accordion-inner">
-        Hervé Bredin
-<p><em>ICASSP 2012, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
-<blockquote><p>We deal with the issue of combining dozens of classifiers into a better one. Our first contribution is the introduction of the notion of communities of classifiers. We build a complete graph with one node per classifier and edges weighted by a measure of similarity between connected classifiers. The resulting community structure is uncovered from this graph using the state-of-the-art Louvain algorithm. Our second contribution is a hierarchical fusion approach driven by these communities. First, intra-community fusion results in one classifier per community. Then, inter-community fusion takes advantage of their complementarity to achieve much better classification performance. Application to the combination of 90 classifiers in the framework of TRECVid 2010 Semantic Indexing task shows a 30% increase in performance relative to a baseline flat fusion.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2012a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2012a.pdf">.pdf</a>        </div>
+        Bertrand Delezoide, Frédéric Precioso, Philippe Gosselin, Miriam Redi, Bernard Mérialdo, Lionel Granjon, Denis Pellerin, Michèle Rombaut, Hervé Jégou, Rémi Vieux, Boris Mansencal, Jenny Benois-Pineau, Stéphane Ayache, Bahjat Safadi, Franck Thollard, Georges Quénot, Hervé Bredin, Matthieu Cord, Alexandre Benoit, Patrick Lambert, Tiberius Strat, Joseph Razik, Sébastion Paris, Hervé Glotin
+<p><em>TRECVid 2011, TREC Video Retrieval Evaluation Online Proceedings</em></p>
+<blockquote><p>The IRIM group is a consortium of French teams working on Multimedia Indexing and Retrieval. This paper describes its participation to the TRECVID 2011 semantic indexing and instance search tasks. For the semantic indexing task, our approach uses a six-stages processing pipelines for computing scores for the likelihood of a video shot to contain a target concept. These scores are then used for producing a ranked list of images or shots that are the most likely to contain the target concept. The pipeline is composed of the following steps: descriptor extraction, descriptor optimization, classification, fusion of descriptor variants, higher-level fusion, and re-ranking. We evaluated a number of different descriptors and tried different fusion strategies. The best IRIM run has a Mean Inferred Average Precision of 0.1387, which ranked us 5th out of 19 participants. For the instance search task, we we used both object based query and frame based query. We formulated the query in standard way as comparison of visual signatures either of object with parts of DB frames or as a comparison of visual signatures of query and DB frames. To produce visual signatures we also used two apporaches: the first one is the baseline Bag-Of-Visual-Words (BOVW) model based on SURF interest point descriptor; the second approach is a Bag-Of-Regions (BOR) model that extends the traditional notion of BOVW vocabulary not only to keypoint-based descriptors but to region based descriptors.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Delezoide2012] | <i class="icon-book"></i> <a href="/download/pdfs/Delezoide2012.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -42,6 +42,20 @@ group: research
 <p><em>ICASSP 2012, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
 <blockquote><p>We investigate the use of speaker diarization (SD) and automatic speech recognition (ASR) for the segmentation of audiovisual documents into scenes. We introduce multiple monomodal and multimodal approaches based on a state-of-the-art algorithm called generalized scene transition graph (GSTG). First, we extend the latter with the use of semantic information derived from both SD and ASR. Then, multimodal fusion of color histograms, SD and ASR is investigated at various point of the GSTG pipeline (early, late or intermediate fusion). Experiments driven on a few episodes of a popular TV show indicate that SD and ASR can be successfully combined with visual information and bring an additional +11% relative increase in terms of F-Measure for scene boundary detection over the state-of-the-art baseline.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2012] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2012.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2012a_All">
+        Community-driven Hierarchical Fusion of Numerous Classifiers: Application to Video Semantic Indexing
+        </a>
+    </div>
+    <div id="collapseBredin2012a_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin
+<p><em>ICASSP 2012, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
+<blockquote><p>We deal with the issue of combining dozens of classifiers into a better one. Our first contribution is the introduction of the notion of communities of classifiers. We build a complete graph with one node per classifier and edges weighted by a measure of similarity between connected classifiers. The resulting community structure is uncovered from this graph using the state-of-the-art Louvain algorithm. Our second contribution is a hierarchical fusion approach driven by these communities. First, intra-community fusion results in one classifier per community. Then, inter-community fusion takes advantage of their complementarity to achieve much better classification performance. Application to the combination of 90 classifiers in the framework of TRECVid 2010 Semantic Indexing task shows a 30% increase in performance relative to a baseline flat fusion.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2012a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2012a.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -74,62 +88,6 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2012a_All">
-        Vers un Résumé Automatique de Séries Télévisées basé sur une Recherche Multimodale d'Histoires
-        </a>
-    </div>
-    <div id="collapseErcolessi2012a_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Philippe Ercolessi, Christine Sénac, Hervé Bredin, Sandrine Mouysset
-<p><em>Document Numérique -- Numéro Spécial ``Résumé Automatique des Documents''</em></p>
-<blockquote><p>Modern TV series have complex plots made of several intertwined stories following numerous characters. In this paper, we propose an approach for automatically detecting these stories in order to generate video summaries and we propose a visualization tool to have a quick and easy look at TV series. Based on automatic scene segmentation of each TV series episode (a scene is defined as temporally and spatially continuous and semantically coherent), scenes are clustered into stories, made of (non necessarily adjacent) semantically similar scenes. Visual, audio and text modalities are combined to achieve better scene segmentation and story detection performance. An extraction of salient scenes from stories is performed to create the summary. Experimentations are conducted on two TV series with different formats.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012a] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012a.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseDelezoide2012_All">
-        IRIM at TRECVID 2011: Semantic Indexing and Instance Search
-        </a>
-    </div>
-    <div id="collapseDelezoide2012_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Bertrand Delezoide, Frédéric Precioso, Philippe Gosselin, Miriam Redi, Bernard Mérialdo, Lionel Granjon, Denis Pellerin, Michèle Rombaut, Hervé Jégou, Rémi Vieux, Boris Mansencal, Jenny Benois-Pineau, Stéphane Ayache, Bahjat Safadi, Franck Thollard, Georges Quénot, Hervé Bredin, Matthieu Cord, Alexandre Benoit, Patrick Lambert, Tiberius Strat, Joseph Razik, Sébastion Paris, Hervé Glotin
-<p><em>TRECVid 2011, TREC Video Retrieval Evaluation Online Proceedings</em></p>
-<blockquote><p>The IRIM group is a consortium of French teams working on Multimedia Indexing and Retrieval. This paper describes its participation to the TRECVID 2011 semantic indexing and instance search tasks. For the semantic indexing task, our approach uses a six-stages processing pipelines for computing scores for the likelihood of a video shot to contain a target concept. These scores are then used for producing a ranked list of images or shots that are the most likely to contain the target concept. The pipeline is composed of the following steps: descriptor extraction, descriptor optimization, classification, fusion of descriptor variants, higher-level fusion, and re-ranking. We evaluated a number of different descriptors and tried different fusion strategies. The best IRIM run has a Mean Inferred Average Precision of 0.1387, which ranked us 5th out of 19 participants. For the instance search task, we we used both object based query and frame based query. We formulated the query in standard way as comparison of visual signatures either of object with parts of DB frames or as a comparison of visual signatures of query and DB frames. To produce visual signatures we also used two apporaches: the first one is the baseline Bag-Of-Visual-Words (BOVW) model based on SURF interest point descriptor; the second approach is a Bag-Of-Regions (BOR) model that extends the traditional notion of BOVW vocabulary not only to keypoint-based descriptors but to region based descriptors.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Delezoide2012] | <i class="icon-book"></i> <a href="/download/pdfs/Delezoide2012.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2012b_All">
-        Scene Clustering for TV Series Plot De-Interlacing based on Speakers, Dialogues and Images
-        </a>
-    </div>
-    <div id="collapseErcolessi2012b_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Philippe Ercolessi, Christine Sénac, Sandrine Mouysset, Hervé Bredin
-<p><em>AMVA 2012, 1st ACM International Workshop on Audio and Multimedia Methods for Large-Scale Video Analysis at ACM Multimedia 2012</em></p>
-<blockquote><p>Recent TV series tend to have more and more complex plot. They follow the lives of numerous characters and are made of multiple intertwined stories. In this paper, we propose a hierarchical framework of plot de-interlacing  which permits to cluster semantic scenes into stories: a story is a group of scenes not necessarily contiguous but showing a strong semantic relation. Each scene is described using three different modalities (based on color histograms, speaker diarization or automatic speech recognition outputs) as well as their multimodal combination. We introduce the notion of character-driven episodes as episodes where stories are emphasized by the presence or absence of characters, and we propose an automatic method, based on a social graph, to detect these episodes. Depending on whether an episode is character-driven or not, the plot-de-interlacing -- which is a scene clustering -- is made either through a traditional average-link agglomerative clustering with speaker modality only, either through a  spectral clustering with the fusion of all modalities. Experiments, conducted on twenty three episodes from three quite different TV series (different lengths and formats), show that the hierarchical framework brings an improvement for all the series.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012b] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012b.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2012c_All">
-        StoViz: Story Visualization of TV Series
-        </a>
-    </div>
-    <div id="collapseErcolessi2012c_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Philippe Ercolessi, Hervé Bredin, Christine Sénac
-<p><em>ACM MM 2012, 20th ACM International Conference on Multimedia</em></p>
-<blockquote><p>Recent TV series tend to have more and more complex plot. They follow the lives of numerous characters and are made of multiple intertwined stories. In this paper, we introduce StoViz, a web-based interface allowing a fast overview of this kind of episode structure, based on our plot de-interlacing system. StoViz has two main goals. First, it provides the user with a useful overview of the episode by displaying each story separately and a short abstract extracted from them. Then, it allows an efficient visual comparison of the output of any automatic plot de-interlacing algorithm with the manual annotation in terms of stories and is therefore very helpful for evaluation purposes. StoViz is available online at http://stoviz.niderb.fr.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012c] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012c.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2012b_All">
         Fusion of Speech, Faces and Text for Person Identification in TV Broadcast
         </a>
@@ -156,6 +114,47 @@ group: research
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Strat2012] | <i class="icon-book"></i> <a href="/download/pdfs/Strat2012.pdf">.pdf</a>        </div>
     </div>
 </div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2012b_All">
+        Hierarchical Framework for Plot De-interlacing of TV Series based on Speakers, Dialogues and Images
+        </a>
+    </div>
+    <div id="collapseErcolessi2012b_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Philippe Ercolessi, Christine Sénac, Sandrine Mouysset, Hervé Bredin
+<p><em>AMVA 2012, 1st ACM International Workshop on Audio and Multimedia Methods for Large-Scale Video Analysis at ACM Multimedia 2012</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012b] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012b.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2012c_All">
+        StoViz: Story Visualization of TV Series
+        </a>
+    </div>
+    <div id="collapseErcolessi2012c_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Philippe Ercolessi, Hervé Bredin, Christine Sénac
+<p><em>ACM MM 2012, 20th ACM International Conference on Multimedia</em></p>
+<blockquote><p>Recent TV series tend to have more and more complex plot. They follow the lives of numerous characters and are made of multiple intertwined stories. In this paper, we introduce StoViz, a web-based interface allowing a fast overview of this kind of episode structure, based on our plot de-interlacing system. StoViz has two main goals. First, it provides the user with a useful overview of the episode by displaying each story separately and a short abstract extracted from them. Then, it allows an efficient visual comparison of the output of any automatic plot de-interlacing algorithm with the manual annotation in terms of stories and is therefore very helpful for evaluation purposes. StoViz is available online at http://stoviz.niderb.fr.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012c] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012c.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2012a_All">
+        Vers un Résumé Automatique de Séries Télévisées basé sur une Recherche Multimodale d'Histoires
+        </a>
+    </div>
+    <div id="collapseErcolessi2012a_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Philippe Ercolessi, Christine Sénac, Hervé Bredin, Sandrine Mouysset
+<p><em>Document Numérique -- Numéro Spécial ``Résumé Automatique des Documents''</em></p>
+<blockquote><p>Modern TV series have complex plots made of several intertwined stories following numerous characters. In this paper, we propose an approach for automatically detecting these stories in order to generate video summaries and we propose a visualization tool to have a quick and easy look at TV series. Based on automatic scene segmentation of each TV series episode (a scene is defined as temporally and spatially continuous and semantically coherent), scenes are clustered into stories, made of (non necessarily adjacent) semantically similar scenes. Visual, audio and text modalities are combined to achieve better scene segmentation and story detection performance. An extraction of salient scenes from stories is performed to create the summary. Experimentations are conducted on two TV series with different formats.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012a] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012a.pdf">.pdf</a>        </div>
+    </div>
+</div>
 <h3>2011</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
@@ -173,20 +172,6 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseRamona2011_All">
-        A Public Audio Identification Evaluation Framework for Broadcast Monitoring
-        </a>
-    </div>
-    <div id="collapseRamona2011_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Mathieu Ramona, Sébastien Fenet, Raphaël Blouet, Hervé Bredin, Thomas Fillon, Geoffroy Peeters
-<p><em>Applied Artificial Intelligence</em></p>
-<blockquote><p>This paper presents the first public framework for the evaluation of audio fingerprinting techniques. Although the domain of audio identification is very active, both in the industry and the academic world, there is nowadays no common basis to compare the proposed techniques. This is because corpuses and evaluation protocols differ between the authors. The framework we present here corresponds to a use-case in which audio excerpts have to be detected in a radio broadcast stream. This scenario indeed naturally provides a large variety of audio distortions that makes this task a real challenge for fingerprinting systems. Scoring metrics are discussed, with regard to this particular scenario. We then describe a whole evaluation framework including an audio corpus, along with the related groundtruth annotation, and a toolkit for the computation of the score metrics. An example of application of this framework is finally detailed. This took place during the evaluation campaign of the Quaero project. This evaluation framework is publicly available for download and constitutes a simple, yet thorough, platform that can be used by the community in the field of audio identification, to encourage reproducible results.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ramona2011] | <i class="icon-book"></i> <a href="/download/pdfs/Ramona2011.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseGorisse2011_All">
         IRIM at TRECVID 2010: Semantic Indexing and Instance Search
         </a>
@@ -197,6 +182,20 @@ group: research
 <p><em>TRECVid 2010, TREC Video Retrieval Evaluation Online Proceedings</em></p>
 <blockquote><p>The IRIM group is a consortium of French teams working on Multimedia Indexing and Retrieval. This paper describes our participation to the TRECVID 2010 semantic indexing and instance search tasks. For the semantic indexing task, we evaluated a number of different descriptors and tried different fusion strategies, in particular hierarchical fusion. The best IRIM run has a Mean Inferred Average Precision of 0.0442, which is above the task median performance. We found that fusion of the classification scores from different classifier types improves the performance and that even with a quite low individual performance, audio descriptors can help. For the instance search task, we used only one of the example images in our queries. The rank is nearly in the middle of the list of participants. The experiment showed that HSV features outperform the concatenation of HSV and Edge histograms or the Wavelet features.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Gorisse2011] | <i class="icon-book"></i> <a href="/download/pdfs/Gorisse2011.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseRamona2011_All">
+        A Public Audio Identification Evaluation Framework for Broadcast Monitoring
+        </a>
+    </div>
+    <div id="collapseRamona2011_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Mathieu Ramona, Sébastien Fenet, Raphaël Blouet, Hervé Bredin, Thomas Fillon, Geoffroy Peeters
+<p><em>Applied Artificial Intelligence</em></p>
+<blockquote><p>This paper presents the first public framework for the evaluation of audio fingerprinting techniques. Although the domain of audio identification is very active, both in the industry and the academic world, there is nowadays no common basis to compare the proposed techniques. This is because corpuses and evaluation protocols differ between the authors. The framework we present here corresponds to a use-case in which audio excerpts have to be detected in a radio broadcast stream. This scenario indeed naturally provides a large variety of audio distortions that makes this task a real challenge for fingerprinting systems. Scoring metrics are discussed, with regard to this particular scenario. We then describe a whole evaluation framework including an audio corpus, along with the related groundtruth annotation, and a toolkit for the computation of the score metrics. An example of application of this framework is finally detailed. This took place during the evaluation campaign of the Quaero project. This evaluation framework is publicly available for download and constitutes a simple, yet thorough, platform that can be used by the community in the field of audio identification, to encourage reproducible results.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ramona2011] | <i class="icon-book"></i> <a href="/download/pdfs/Ramona2011.pdf">.pdf</a>        </div>
     </div>
 </div>
 <h3>2010</h3>
@@ -270,6 +269,19 @@ group: research
 <h3>2008</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2008_All">
+        Making Talking-Face Authentication Robust to Deliberate Imposture
+        </a>
+    </div>
+    <div id="collapseBredin2008_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Gérard Chollet
+<p><em>ICASSP 2008, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2008] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2008.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseFauve2008_All">
         Some Results from the BioSecure Talking-Face Evaluation Campaign
         </a>
@@ -292,19 +304,6 @@ group: research
         Emilie Dumont, Bernard Merialdo, Slim Essid, Werner Bailer, Herwig Rehatschek, Daragh Byrne, Hervé Bredin, Noel O'Connor, Gareth JF Jones, Alan F Smeaton, Martin Haller, Andreas Krutz, Thomas Sikora, Tomas Piatrik
 <p><em>TRECVID 2008, ACM International Conference on Multimedia Information Retrieval</em></p>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Dumont2008] | <i class="icon-book"></i> <a href="/download/pdfs/Dumont2008.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2008_All">
-        Making Talking-Face Authentication Robust to Deliberate Imposture
-        </a>
-    </div>
-    <div id="collapseBredin2008_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Hervé Bredin, Gérard Chollet
-<p><em>ICASSP 2008, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2008] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2008.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -336,14 +335,28 @@ group: research
 <h3>2007</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2007b_All">
-        Vérification de l'Identité d'un Visage Parlant. Apport de la Mesure de Synchronie Audiovisuelle face aux Tentatives Délibérées d'Imposture.
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2007_All">
+        Audio-Visual Speech Synchrony Measure: Application to Biometrics
         </a>
     </div>
-    <div id="collapseBredin2007b_All" class="accordion-body collapse">
+    <div id="collapseBredin2007_All" class="accordion-body collapse">
         <div class="accordion-inner">
-        Hervé Bredin
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2007b] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2007b.pdf">.pdf</a>        </div>
+        Hervé Bredin, Gérard Chollet
+<p><em>EURASIP Journal on Advances in Signal Processing, Special Issue on Knowledge-Assisted Media Analysis for Interactive Multimedia Applications</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2007] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2007.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2007a_All">
+        Audio-Visual Speech Synchrony Measure for Talking-Face Identity Verification
+        </a>
+    </div>
+    <div id="collapseBredin2007a_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Gérard Chollet
+<p><em>ICASSP 2007, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2007a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2007a.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -361,15 +374,15 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseChollet2007_All">
-        Some Experiments in Audio-Visual Speech Processing
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseArgones-Rua2007_All">
+        Aliveness Detection using Coupled Hidden Markov Models
         </a>
     </div>
-    <div id="collapseChollet2007_All" class="accordion-body collapse">
+    <div id="collapseArgones-Rua2007_All" class="accordion-body collapse">
         <div class="accordion-inner">
-        Gérard Chollet, Rémi Landais, Hervé Bredin, Thomas Hueber, Chafic Mokbel, Patrick Perrot, Leila Zouari
-<p><em>Non-Linear Speech Processing</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Chollet2007] | <i class="icon-book"></i> <a href="/download/pdfs/Chollet2007.pdf">.pdf</a>        </div>
+        Enrique Argones-Rúa, Carmen García-Mateo, Hervé Bredin, Gérard Chollet
+<p><em>1st Spanish Workshop on Biometrics</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Argones-Rua2007] | <i class="icon-book"></i> <a href="/download/pdfs/Argones-Rua2007.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -387,15 +400,14 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseAbboud2007_All">
-        Audio-Visual Identity Verification: an Introductory Overview
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2007b_All">
+        Vérification de l'Identité d'un Visage Parlant. Apport de la Mesure de Synchronie Audiovisuelle face aux Tentatives Délibérées d'Imposture.
         </a>
     </div>
-    <div id="collapseAbboud2007_All" class="accordion-body collapse">
+    <div id="collapseBredin2007b_All" class="accordion-body collapse">
         <div class="accordion-inner">
-        Bouchra Abboud, Hervé Bredin, Guido Aversano, Gérard Chollet
-<p><em>Progress in Nonlinear Speech Processing</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Abboud2007] | <i class="icon-book"></i> <a href="/download/pdfs/Abboud2007.pdf">.pdf</a>        </div>
+        Hervé Bredin
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2007b] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2007b.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -413,44 +425,57 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2007_All">
-        Audio-Visual Speech Synchrony Measure: Application to Biometrics
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseChollet2007_All">
+        Some Experiments in Audio-Visual Speech Processing
         </a>
     </div>
-    <div id="collapseBredin2007_All" class="accordion-body collapse">
+    <div id="collapseChollet2007_All" class="accordion-body collapse">
         <div class="accordion-inner">
-        Hervé Bredin, Gérard Chollet
-<p><em>EURASIP Journal on Advances in Signal Processing, Special Issue on Knowledge-Assisted Media Analysis for Interactive Multimedia Applications</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2007] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2007.pdf">.pdf</a>        </div>
+        Gérard Chollet, Rémi Landais, Hervé Bredin, Thomas Hueber, Chafic Mokbel, Patrick Perrot, Leila Zouari
+<p><em>Non-Linear Speech Processing</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Chollet2007] | <i class="icon-book"></i> <a href="/download/pdfs/Chollet2007.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseArgones-Rua2007_All">
-        Aliveness Detection using Coupled Hidden Markov Models
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseAbboud2007_All">
+        Audio-Visual Identity Verification: an Introductory Overview
         </a>
     </div>
-    <div id="collapseArgones-Rua2007_All" class="accordion-body collapse">
+    <div id="collapseAbboud2007_All" class="accordion-body collapse">
         <div class="accordion-inner">
-        Enrique Argones-Rúa, Carmen García-Mateo, Hervé Bredin, Gérard Chollet
-<p><em>1st Spanish Workshop on Biometrics</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Argones-Rua2007] | <i class="icon-book"></i> <a href="/download/pdfs/Argones-Rua2007.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2007a_All">
-        Audio-Visual Speech Synchrony Measure for Talking-Face Identity Verification
-        </a>
-    </div>
-    <div id="collapseBredin2007a_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Hervé Bredin, Gérard Chollet
-<p><em>ICASSP 2007, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2007a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2007a.pdf">.pdf</a>        </div>
+        Bouchra Abboud, Hervé Bredin, Guido Aversano, Gérard Chollet
+<p><em>Progress in Nonlinear Speech Processing</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Abboud2007] | <i class="icon-book"></i> <a href="/download/pdfs/Abboud2007.pdf">.pdf</a>        </div>
     </div>
 </div>
 <h3>2006</h3>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2006_All">
+        Detecting Replay Attacks in Audiovisual Identity Verification
+        </a>
+    </div>
+    <div id="collapseBredin2006_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Antonio Miguel, Ian Witten, Gérard Chollet
+<p><em>ICASSP 2006, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2006] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2006.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseKoreman2006_All">
+        Multi-Modal Biometric Authentication on the SecurePhone PDA
+        </a>
+    </div>
+    <div id="collapseKoreman2006_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Jacques Koreman, Andrew C Morris, D. Wu, Sabah Jassim, Harin Sellahewa, J. Ehlers, Gérard Chollet, Guido Aversano, Hervé Bredin, Sonia Garcia-Salicetti, Lorène Allano, Bao Ly Van, Bernadette Dorizzi
+<p><em>MMUA 2006, Workshop on Multimodal User Authentication</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Koreman2006] | <i class="icon-book"></i> <a href="/download/pdfs/Koreman2006.pdf">.pdf</a>        </div>
+    </div>
+</div>
 <div class="accordion-group">
     <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2006a_All">
@@ -479,32 +504,6 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseKoreman2006_All">
-        Multi-Modal Biometric Authentication on the SecurePhone PDA
-        </a>
-    </div>
-    <div id="collapseKoreman2006_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Jacques Koreman, Andrew C Morris, D. Wu, Sabah Jassim, Harin Sellahewa, J. Ehlers, Gérard Chollet, Guido Aversano, Hervé Bredin, Sonia Garcia-Salicetti, Lorène Allano, Bao Ly Van, Bernadette Dorizzi
-<p><em>MMUA 2006, Workshop on Multimodal User Authentication</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Koreman2006] | <i class="icon-book"></i> <a href="/download/pdfs/Koreman2006.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2006c_All">
-        Measuring Audio and Visual Speech Synchrony: Methods and Applications
-        </a>
-    </div>
-    <div id="collapseBredin2006c_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Hervé Bredin, Gérard Chollet
-<p><em>VIE 2006, IEE International Conference on Visual Information Engineering</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2006c] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2006c.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2006b_All">
         GMM-based SVM for Face Recognition
         </a>
@@ -518,15 +517,15 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2006_All">
-        Detecting Replay Attacks in Audiovisual Identity Verification
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2006c_All">
+        Measuring Audio and Visual Speech Synchrony: Methods and Applications
         </a>
     </div>
-    <div id="collapseBredin2006_All" class="accordion-body collapse">
+    <div id="collapseBredin2006c_All" class="accordion-body collapse">
         <div class="accordion-inner">
-        Hervé Bredin, Antonio Miguel, Ian Witten, Gérard Chollet
-<p><em>ICASSP 2006, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2006] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2006.pdf">.pdf</a>        </div>
+        Hervé Bredin, Gérard Chollet
+<p><em>VIE 2006, IEE International Conference on Visual Information Engineering</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2006c] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2006c.pdf">.pdf</a>        </div>
     </div>
 </div>
 <h3>2005</h3>
@@ -594,19 +593,6 @@ group: research
 <h3>2007</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionJournalarticles" href="#collapseArgones-Rua2007a_Journalarticles">
-        Audio-Visual Speech Asynchrony Detection using Co-Inertia Analysis and Coupled Hidden Markov Models
-        </a>
-    </div>
-    <div id="collapseArgones-Rua2007a_Journalarticles" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Enrique Argones-Rúa, Hervé Bredin, Carmen García-Mateo, Gérard Chollet, Daniel González-Jiménez
-<p><em>Pattern Analysis and Applications Journal</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Argones-Rua2007a] | <i class="icon-book"></i> <a href="/download/pdfs/Argones-Rua2007a.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionJournalarticles" href="#collapseBredin2007_Journalarticles">
         Audio-Visual Speech Synchrony Measure: Application to Biometrics
         </a>
@@ -616,6 +602,19 @@ group: research
         Hervé Bredin, Gérard Chollet
 <p><em>EURASIP Journal on Advances in Signal Processing, Special Issue on Knowledge-Assisted Media Analysis for Interactive Multimedia Applications</em></p>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2007] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2007.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionJournalarticles" href="#collapseArgones-Rua2007a_Journalarticles">
+        Audio-Visual Speech Asynchrony Detection using Co-Inertia Analysis and Coupled Hidden Markov Models
+        </a>
+    </div>
+    <div id="collapseArgones-Rua2007a_Journalarticles" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Enrique Argones-Rúa, Hervé Bredin, Carmen García-Mateo, Gérard Chollet, Daniel González-Jiménez
+<p><em>Pattern Analysis and Applications Journal</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Argones-Rua2007a] | <i class="icon-book"></i> <a href="/download/pdfs/Argones-Rua2007a.pdf">.pdf</a>        </div>
     </div>
 </div>
 </div>
@@ -670,16 +669,16 @@ group: research
 <h3>2012</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2012a_Conferenceandworkshopproceedings">
-        Community-driven Hierarchical Fusion of Numerous Classifiers: Application to Video Semantic Indexing
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseDelezoide2012_Conferenceandworkshopproceedings">
+        IRIM at TRECVID 2011: Semantic Indexing and Instance Search
         </a>
     </div>
-    <div id="collapseBredin2012a_Conferenceandworkshopproceedings" class="accordion-body collapse">
+    <div id="collapseDelezoide2012_Conferenceandworkshopproceedings" class="accordion-body collapse">
         <div class="accordion-inner">
-        Hervé Bredin
-<p><em>ICASSP 2012, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
-<blockquote><p>We deal with the issue of combining dozens of classifiers into a better one. Our first contribution is the introduction of the notion of communities of classifiers. We build a complete graph with one node per classifier and edges weighted by a measure of similarity between connected classifiers. The resulting community structure is uncovered from this graph using the state-of-the-art Louvain algorithm. Our second contribution is a hierarchical fusion approach driven by these communities. First, intra-community fusion results in one classifier per community. Then, inter-community fusion takes advantage of their complementarity to achieve much better classification performance. Application to the combination of 90 classifiers in the framework of TRECVid 2010 Semantic Indexing task shows a 30% increase in performance relative to a baseline flat fusion.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2012a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2012a.pdf">.pdf</a>        </div>
+        Bertrand Delezoide, Frédéric Precioso, Philippe Gosselin, Miriam Redi, Bernard Mérialdo, Lionel Granjon, Denis Pellerin, Michèle Rombaut, Hervé Jégou, Rémi Vieux, Boris Mansencal, Jenny Benois-Pineau, Stéphane Ayache, Bahjat Safadi, Franck Thollard, Georges Quénot, Hervé Bredin, Matthieu Cord, Alexandre Benoit, Patrick Lambert, Tiberius Strat, Joseph Razik, Sébastion Paris, Hervé Glotin
+<p><em>TRECVid 2011, TREC Video Retrieval Evaluation Online Proceedings</em></p>
+<blockquote><p>The IRIM group is a consortium of French teams working on Multimedia Indexing and Retrieval. This paper describes its participation to the TRECVID 2011 semantic indexing and instance search tasks. For the semantic indexing task, our approach uses a six-stages processing pipelines for computing scores for the likelihood of a video shot to contain a target concept. These scores are then used for producing a ranked list of images or shots that are the most likely to contain the target concept. The pipeline is composed of the following steps: descriptor extraction, descriptor optimization, classification, fusion of descriptor variants, higher-level fusion, and re-ranking. We evaluated a number of different descriptors and tried different fusion strategies. The best IRIM run has a Mean Inferred Average Precision of 0.1387, which ranked us 5th out of 19 participants. For the instance search task, we we used both object based query and frame based query. We formulated the query in standard way as comparison of visual signatures either of object with parts of DB frames or as a comparison of visual signatures of query and DB frames. To produce visual signatures we also used two apporaches: the first one is the baseline Bag-Of-Visual-Words (BOVW) model based on SURF interest point descriptor; the second approach is a Bag-Of-Regions (BOR) model that extends the traditional notion of BOVW vocabulary not only to keypoint-based descriptors but to region based descriptors.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Delezoide2012] | <i class="icon-book"></i> <a href="/download/pdfs/Delezoide2012.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -694,6 +693,20 @@ group: research
 <p><em>ICASSP 2012, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
 <blockquote><p>We investigate the use of speaker diarization (SD) and automatic speech recognition (ASR) for the segmentation of audiovisual documents into scenes. We introduce multiple monomodal and multimodal approaches based on a state-of-the-art algorithm called generalized scene transition graph (GSTG). First, we extend the latter with the use of semantic information derived from both SD and ASR. Then, multimodal fusion of color histograms, SD and ASR is investigated at various point of the GSTG pipeline (early, late or intermediate fusion). Experiments driven on a few episodes of a popular TV show indicate that SD and ASR can be successfully combined with visual information and bring an additional +11% relative increase in terms of F-Measure for scene boundary detection over the state-of-the-art baseline.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2012] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2012.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2012a_Conferenceandworkshopproceedings">
+        Community-driven Hierarchical Fusion of Numerous Classifiers: Application to Video Semantic Indexing
+        </a>
+    </div>
+    <div id="collapseBredin2012a_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin
+<p><em>ICASSP 2012, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
+<blockquote><p>We deal with the issue of combining dozens of classifiers into a better one. Our first contribution is the introduction of the notion of communities of classifiers. We build a complete graph with one node per classifier and edges weighted by a measure of similarity between connected classifiers. The resulting community structure is uncovered from this graph using the state-of-the-art Louvain algorithm. Our second contribution is a hierarchical fusion approach driven by these communities. First, intra-community fusion results in one classifier per community. Then, inter-community fusion takes advantage of their complementarity to achieve much better classification performance. Application to the combination of 90 classifiers in the framework of TRECVid 2010 Semantic Indexing task shows a 30% increase in performance relative to a baseline flat fusion.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2012a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2012a.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -726,48 +739,6 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseDelezoide2012_Conferenceandworkshopproceedings">
-        IRIM at TRECVID 2011: Semantic Indexing and Instance Search
-        </a>
-    </div>
-    <div id="collapseDelezoide2012_Conferenceandworkshopproceedings" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Bertrand Delezoide, Frédéric Precioso, Philippe Gosselin, Miriam Redi, Bernard Mérialdo, Lionel Granjon, Denis Pellerin, Michèle Rombaut, Hervé Jégou, Rémi Vieux, Boris Mansencal, Jenny Benois-Pineau, Stéphane Ayache, Bahjat Safadi, Franck Thollard, Georges Quénot, Hervé Bredin, Matthieu Cord, Alexandre Benoit, Patrick Lambert, Tiberius Strat, Joseph Razik, Sébastion Paris, Hervé Glotin
-<p><em>TRECVid 2011, TREC Video Retrieval Evaluation Online Proceedings</em></p>
-<blockquote><p>The IRIM group is a consortium of French teams working on Multimedia Indexing and Retrieval. This paper describes its participation to the TRECVID 2011 semantic indexing and instance search tasks. For the semantic indexing task, our approach uses a six-stages processing pipelines for computing scores for the likelihood of a video shot to contain a target concept. These scores are then used for producing a ranked list of images or shots that are the most likely to contain the target concept. The pipeline is composed of the following steps: descriptor extraction, descriptor optimization, classification, fusion of descriptor variants, higher-level fusion, and re-ranking. We evaluated a number of different descriptors and tried different fusion strategies. The best IRIM run has a Mean Inferred Average Precision of 0.1387, which ranked us 5th out of 19 participants. For the instance search task, we we used both object based query and frame based query. We formulated the query in standard way as comparison of visual signatures either of object with parts of DB frames or as a comparison of visual signatures of query and DB frames. To produce visual signatures we also used two apporaches: the first one is the baseline Bag-Of-Visual-Words (BOVW) model based on SURF interest point descriptor; the second approach is a Bag-Of-Regions (BOR) model that extends the traditional notion of BOVW vocabulary not only to keypoint-based descriptors but to region based descriptors.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Delezoide2012] | <i class="icon-book"></i> <a href="/download/pdfs/Delezoide2012.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseErcolessi2012b_Conferenceandworkshopproceedings">
-        Scene Clustering for TV Series Plot De-Interlacing based on Speakers, Dialogues and Images
-        </a>
-    </div>
-    <div id="collapseErcolessi2012b_Conferenceandworkshopproceedings" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Philippe Ercolessi, Christine Sénac, Sandrine Mouysset, Hervé Bredin
-<p><em>AMVA 2012, 1st ACM International Workshop on Audio and Multimedia Methods for Large-Scale Video Analysis at ACM Multimedia 2012</em></p>
-<blockquote><p>Recent TV series tend to have more and more complex plot. They follow the lives of numerous characters and are made of multiple intertwined stories. In this paper, we propose a hierarchical framework of plot de-interlacing  which permits to cluster semantic scenes into stories: a story is a group of scenes not necessarily contiguous but showing a strong semantic relation. Each scene is described using three different modalities (based on color histograms, speaker diarization or automatic speech recognition outputs) as well as their multimodal combination. We introduce the notion of character-driven episodes as episodes where stories are emphasized by the presence or absence of characters, and we propose an automatic method, based on a social graph, to detect these episodes. Depending on whether an episode is character-driven or not, the plot-de-interlacing -- which is a scene clustering -- is made either through a traditional average-link agglomerative clustering with speaker modality only, either through a  spectral clustering with the fusion of all modalities. Experiments, conducted on twenty three episodes from three quite different TV series (different lengths and formats), show that the hierarchical framework brings an improvement for all the series.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012b] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012b.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseErcolessi2012c_Conferenceandworkshopproceedings">
-        StoViz: Story Visualization of TV Series
-        </a>
-    </div>
-    <div id="collapseErcolessi2012c_Conferenceandworkshopproceedings" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Philippe Ercolessi, Hervé Bredin, Christine Sénac
-<p><em>ACM MM 2012, 20th ACM International Conference on Multimedia</em></p>
-<blockquote><p>Recent TV series tend to have more and more complex plot. They follow the lives of numerous characters and are made of multiple intertwined stories. In this paper, we introduce StoViz, a web-based interface allowing a fast overview of this kind of episode structure, based on our plot de-interlacing system. StoViz has two main goals. First, it provides the user with a useful overview of the episode by displaying each story separately and a short abstract extracted from them. Then, it allows an efficient visual comparison of the output of any automatic plot de-interlacing algorithm with the manual annotation in terms of stories and is therefore very helpful for evaluation purposes. StoViz is available online at http://stoviz.niderb.fr.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012c] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012c.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2012b_Conferenceandworkshopproceedings">
         Fusion of Speech, Faces and Text for Person Identification in TV Broadcast
         </a>
@@ -792,6 +763,33 @@ group: research
 <p><em>ECCV 2012, Workshop on Information Fusion in Computer Vision for Concept Recognition</em></p>
 <blockquote><p>We deal with the issue of combining dozens of classifiers into a better one, for concept detection in videos. We compare three fusion approaches that share a common structure: they all start with a classifier clustering stage, continue with an intra-cluster fusion and end with an inter-cluster fusion. The main difference between them comes from the first stage. The first approach relies on a priori knowledge about the internals of each classifier (low-level descriptors and classification algorithm) to group the set of available classifiers by similarity. The second and third approaches obtain classifier similarity measures directly from their output and group them using agglomerative clustering for the second approach and community detection for the third one.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Strat2012] | <i class="icon-book"></i> <a href="/download/pdfs/Strat2012.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseErcolessi2012b_Conferenceandworkshopproceedings">
+        Hierarchical Framework for Plot De-interlacing of TV Series based on Speakers, Dialogues and Images
+        </a>
+    </div>
+    <div id="collapseErcolessi2012b_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Philippe Ercolessi, Christine Sénac, Sandrine Mouysset, Hervé Bredin
+<p><em>AMVA 2012, 1st ACM International Workshop on Audio and Multimedia Methods for Large-Scale Video Analysis at ACM Multimedia 2012</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012b] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012b.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseErcolessi2012c_Conferenceandworkshopproceedings">
+        StoViz: Story Visualization of TV Series
+        </a>
+    </div>
+    <div id="collapseErcolessi2012c_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Philippe Ercolessi, Hervé Bredin, Christine Sénac
+<p><em>ACM MM 2012, 20th ACM International Conference on Multimedia</em></p>
+<blockquote><p>Recent TV series tend to have more and more complex plot. They follow the lives of numerous characters and are made of multiple intertwined stories. In this paper, we introduce StoViz, a web-based interface allowing a fast overview of this kind of episode structure, based on our plot de-interlacing system. StoViz has two main goals. First, it provides the user with a useful overview of the episode by displaying each story separately and a short abstract extracted from them. Then, it allows an efficient visual comparison of the output of any automatic plot de-interlacing algorithm with the manual annotation in terms of stories and is therefore very helpful for evaluation purposes. StoViz is available online at http://stoviz.niderb.fr.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Ercolessi2012c] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012c.pdf">.pdf</a>        </div>
     </div>
 </div>
 <h3>2011</h3>
@@ -868,6 +866,19 @@ group: research
 <h3>2008</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2008_Conferenceandworkshopproceedings">
+        Making Talking-Face Authentication Robust to Deliberate Imposture
+        </a>
+    </div>
+    <div id="collapseBredin2008_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Gérard Chollet
+<p><em>ICASSP 2008, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2008] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2008.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseFauve2008_Conferenceandworkshopproceedings">
         Some Results from the BioSecure Talking-Face Evaluation Campaign
         </a>
@@ -890,19 +901,6 @@ group: research
         Emilie Dumont, Bernard Merialdo, Slim Essid, Werner Bailer, Herwig Rehatschek, Daragh Byrne, Hervé Bredin, Noel O'Connor, Gareth JF Jones, Alan F Smeaton, Martin Haller, Andreas Krutz, Thomas Sikora, Tomas Piatrik
 <p><em>TRECVID 2008, ACM International Conference on Multimedia Information Retrieval</em></p>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Dumont2008] | <i class="icon-book"></i> <a href="/download/pdfs/Dumont2008.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2008_Conferenceandworkshopproceedings">
-        Making Talking-Face Authentication Robust to Deliberate Imposture
-        </a>
-    </div>
-    <div id="collapseBredin2008_Conferenceandworkshopproceedings" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Hervé Bredin, Gérard Chollet
-<p><em>ICASSP 2008, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2008] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2008.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -934,6 +932,19 @@ group: research
 <h3>2007</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2007a_Conferenceandworkshopproceedings">
+        Audio-Visual Speech Synchrony Measure for Talking-Face Identity Verification
+        </a>
+    </div>
+    <div id="collapseBredin2007a_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Gérard Chollet
+<p><em>ICASSP 2007, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2007a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2007a.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseLandais2007_Conferenceandworkshopproceedings">
         Vérification Audiovisuelle de l'Identité
         </a>
@@ -943,19 +954,6 @@ group: research
         Rémi Landais, Hervé Bredin, Leila Zouari, Gérard Chollet
 <p><em>Traitement et Analyse de l'Information : Méthodes et Applications</em></p>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Landais2007] | <i class="icon-book"></i> <a href="/download/pdfs/Landais2007.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapsePerrot2007_Conferenceandworkshopproceedings">
-        Biometrics and Forensic Sciences: the Same Quest for Identification?
-        </a>
-    </div>
-    <div id="collapsePerrot2007_Conferenceandworkshopproceedings" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Patrick Perrot, Hervé Bredin, Gérard Chollet
-<p><em>2007 International Crime Science Conference</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Perrot2007] | <i class="icon-book"></i> <a href="/download/pdfs/Perrot2007.pdf">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -973,18 +971,44 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2007a_Conferenceandworkshopproceedings">
-        Audio-Visual Speech Synchrony Measure for Talking-Face Identity Verification
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapsePerrot2007_Conferenceandworkshopproceedings">
+        Biometrics and Forensic Sciences: the Same Quest for Identification?
         </a>
     </div>
-    <div id="collapseBredin2007a_Conferenceandworkshopproceedings" class="accordion-body collapse">
+    <div id="collapsePerrot2007_Conferenceandworkshopproceedings" class="accordion-body collapse">
         <div class="accordion-inner">
-        Hervé Bredin, Gérard Chollet
-<p><em>ICASSP 2007, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2007a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2007a.pdf">.pdf</a>        </div>
+        Patrick Perrot, Hervé Bredin, Gérard Chollet
+<p><em>2007 International Crime Science Conference</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Perrot2007] | <i class="icon-book"></i> <a href="/download/pdfs/Perrot2007.pdf">.pdf</a>        </div>
     </div>
 </div>
 <h3>2006</h3>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2006_Conferenceandworkshopproceedings">
+        Detecting Replay Attacks in Audiovisual Identity Verification
+        </a>
+    </div>
+    <div id="collapseBredin2006_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Antonio Miguel, Ian Witten, Gérard Chollet
+<p><em>ICASSP 2006, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2006] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2006.pdf">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseKoreman2006_Conferenceandworkshopproceedings">
+        Multi-Modal Biometric Authentication on the SecurePhone PDA
+        </a>
+    </div>
+    <div id="collapseKoreman2006_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Jacques Koreman, Andrew C Morris, D. Wu, Sabah Jassim, Harin Sellahewa, J. Ehlers, Gérard Chollet, Guido Aversano, Hervé Bredin, Sonia Garcia-Salicetti, Lorène Allano, Bao Ly Van, Bernadette Dorizzi
+<p><em>MMUA 2006, Workshop on Multimodal User Authentication</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Koreman2006] | <i class="icon-book"></i> <a href="/download/pdfs/Koreman2006.pdf">.pdf</a>        </div>
+    </div>
+</div>
 <div class="accordion-group">
     <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2006a_Conferenceandworkshopproceedings">
@@ -1013,32 +1037,6 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseKoreman2006_Conferenceandworkshopproceedings">
-        Multi-Modal Biometric Authentication on the SecurePhone PDA
-        </a>
-    </div>
-    <div id="collapseKoreman2006_Conferenceandworkshopproceedings" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Jacques Koreman, Andrew C Morris, D. Wu, Sabah Jassim, Harin Sellahewa, J. Ehlers, Gérard Chollet, Guido Aversano, Hervé Bredin, Sonia Garcia-Salicetti, Lorène Allano, Bao Ly Van, Bernadette Dorizzi
-<p><em>MMUA 2006, Workshop on Multimodal User Authentication</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Koreman2006] | <i class="icon-book"></i> <a href="/download/pdfs/Koreman2006.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2006c_Conferenceandworkshopproceedings">
-        Measuring Audio and Visual Speech Synchrony: Methods and Applications
-        </a>
-    </div>
-    <div id="collapseBredin2006c_Conferenceandworkshopproceedings" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Hervé Bredin, Gérard Chollet
-<p><em>VIE 2006, IEE International Conference on Visual Information Engineering</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2006c] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2006c.pdf">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2006b_Conferenceandworkshopproceedings">
         GMM-based SVM for Face Recognition
         </a>
@@ -1052,15 +1050,15 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2006_Conferenceandworkshopproceedings">
-        Detecting Replay Attacks in Audiovisual Identity Verification
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2006c_Conferenceandworkshopproceedings">
+        Measuring Audio and Visual Speech Synchrony: Methods and Applications
         </a>
     </div>
-    <div id="collapseBredin2006_Conferenceandworkshopproceedings" class="accordion-body collapse">
+    <div id="collapseBredin2006c_Conferenceandworkshopproceedings" class="accordion-body collapse">
         <div class="accordion-inner">
-        Hervé Bredin, Antonio Miguel, Ian Witten, Gérard Chollet
-<p><em>ICASSP 2006, IEEE International Conference on Acoustics, Speech, and Signal Processing</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2006] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2006.pdf">.pdf</a>        </div>
+        Hervé Bredin, Gérard Chollet
+<p><em>VIE 2006, IEE International Conference on Visual Information Engineering</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib">.bib</a> [Bredin2006c] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2006c.pdf">.pdf</a>        </div>
     </div>
 </div>
 <h3>2005</h3>

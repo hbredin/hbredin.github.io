@@ -70,12 +70,12 @@
 								</li>
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-										Software
+										In a nutshell
 										<b class="caret"></b>
 									</a>
 									<ul class="dropdown-menu">
 										{% assign pages_list = site.pages %}
-										{% assign group = 'software' %}
+										{% assign group = 'nutshell' %}
 										{% include JB/pages_list %}
 									</ul>
 								</li>
@@ -87,6 +87,17 @@
 									<ul class="dropdown-menu">
 										{% assign pages_list = site.pages %}
 										{% assign group = 'research' %}
+										{% include JB/pages_list %}
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+										Software
+										<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu">
+										{% assign pages_list = site.pages %}
+										{% assign group = 'software' %}
 										{% include JB/pages_list %}
 									</ul>
 								</li>

@@ -9,7 +9,7 @@ title: Home
 	  <h2>News</h2>
 {% assign posts_list = site.posts %}
 {% for post in posts_list  %}
-	<li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+	<li><span><strong>{{ post.date | date: "%Y-%m-%d" }}</strong></span> | <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 {% assign posts_list = nil %}
   </div>

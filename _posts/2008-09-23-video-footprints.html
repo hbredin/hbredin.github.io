@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Video footprints"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+
+<p>For my first participation to the <a href="http://www-nlpir.nist.gov/projects/trecvid/">TREC Video Retrieval Evaluation</a> campaign, I focused on the <a href="http://www-nlpir.nist.gov/projects/tv2008/tv2008.html#4.4">rushes summarisation task</a>. In a few words, starting from a given video <em>V</em> of duration <em>D</em>, the objective was to produce a video summary <em>v</em> of duration <em>d = 2% x D</em>, containing all the relevant information of the original video <em>V</em>.</p>
+<p>Deciding whether a video segment contains relevant information is a difficult (impossible? subjective?) task in itself and that is <strong>not</strong> the purpose of this article. I will definitely have to come back to this particular issue in future posts.</p>
+<p>In this post, I will only write about the core of the abstraction algorithm: video footprints. For a full description of the two systems we, the <a href="http://www.cdvp.dcu.ie/">DCU</a> team -- Daragh Byrne and myself, submitted to TRECVid 2008, please refer to <a href='/download/pdfs/Bredin2008a.pdf'>[Bredin2008a]</a>:<br/><br/>
+
+H. Bredin, D. Byrne, H. Lee, N. O&#8217;Connor, and G. J. Jones<br/>
+&quot;Dublin City University at TRECVid 2008 BBC Rushes Summarisation Task,&quot;<br/>
+in <em>TRECVID 2008, ACM International Conference on Multimedia Information Retrieval 2008</em>, Vancouver, BC, Canada,  2008.
+
+<h3>Feature Extraction</h3>
+<p>As for any content-based video analysis algorithm, the first mandatory step is to extract features directly from the video content. We chose simplistic features: RGB color histogram from every frame of the video, therefore only focusing on visual content&#8230;</p>
+<p>Dealing with the audio content is definitely one question I am planning on dealing with in the near future.</p>
+<h3>Dimensionality Reduction</h3>
+<p>Histogram computation with 8 bins per color channel leads to the extraction of a 512-dimensional feature vector for each frame of the video (around 25 frames per second). This makes an ENORMOUS set of HUGE vectors. Applying dimensionality reduction techniques would certainly help us have a clearer insight of what is going on here. Here comes principal component analysis (a.k.a. PCA). Keeping the first two principal components, each frame can be described by a 2-dimensional feature vector as described in picture below.</p>
+<p><img class="alignnone size-full wp-image-96" title="Projection" src="/images/projection.jpg" alt="" width="500" height="225" /></p>
+<h3>Video Footprint</h3>
+<p>Consequently, it is possible to <em>follow the trajectory</em> of the video in this 2-dimensional space which is divided into 30x30 bins (as shown in the video below). Each time the video goes through a bin, it is activated (i.e. it turns to black). The resulting binary 30x30 matrix is called the footprint of the video.</p>
+<p style="text-align: justify;">
+        <object width="480" height="295">
+            <param name="movie" value="http://www.youtube.com/v/C8Kto2mkjTI&amp;color1=d6d6d6&amp;color2=f0f0f0&amp;border=0&amp;fs=1&amp;hl=en&amp;autoplay=0&amp;showinfo=0&amp;iv_load_policy=3&amp;showsearch=0?rel=1&amp;hd=1" />
+            <param name="allowFullScreen" value="true" />
+            <embed wmode="transparent" src="http://www.youtube.com/v/C8Kto2mkjTI&amp;color1=d6d6d6&amp;color2=f0f0f0&amp;border=0&amp;fs=1&amp;hl=en&amp;autoplay=0&amp;showinfo=0&amp;iv_load_policy=3&amp;showsearch=0?rel=1&amp;hd=1" type="application/x-shockwave-flash" allowfullscreen="true" width="480" height="295"></embed>
+            <param name="wmode" value="transparent" />
+        </object>
+</p>
+<p>In this sample video, along with the footprint of the whole video (on the left), a footprint is also computed for each shot. The structure of the original video is clearly uncovered here: shots 1 and 2 are retakes of the same scene (like shots 3, 4 and 5) and this can be deduced from the observation of their footprints (they are very similar). In a summarization framework, this can be used to get rid of redundant shots (with similar footprints) or select the most informative sub-segment of a shot -- that is the one with the largest footprint (see video below).</p>
+<p>
+        <object width="425" height="344">
+            <param name="movie" value="http://www.youtube.com/v/Nk1Uoi85Vyg&amp;color1=d6d6d6&amp;color2=f0f0f0&amp;border=0&amp;fs=1&amp;hl=en&amp;autoplay=0&amp;showinfo=0&amp;iv_load_policy=3&amp;showsearch=0?rel=1" />
+            <param name="allowFullScreen" value="true" />
+            <embed wmode="transparent" src="http://www.youtube.com/v/Nk1Uoi85Vyg&amp;color1=d6d6d6&amp;color2=f0f0f0&amp;border=0&amp;fs=1&amp;hl=en&amp;autoplay=0&amp;showinfo=0&amp;iv_load_policy=3&amp;showsearch=0?rel=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed>
+            <param name="wmode" value="transparent" />
+        </object>
+</p>
+<p>More applications of video footprints to come&#8230;</p>

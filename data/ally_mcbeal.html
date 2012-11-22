@@ -1,0 +1,40 @@
+---
+layout: page
+title: "Ally McBeal"
+description: ""
+tagline: "Annotations of the first 4 episodes of season 1"
+group: data
+---
+{% include JB/setup %}
+
+<div>
+    <ul>
+        <li><strong>Annotator:</strong> Ph. Ercolessi</li>
+        <li><strong>Version:</strong> 1.1</li>
+        <li><strong>Date:</strong> 11/04/2011</li>
+        <li><strong>File:</strong> <a href="/download/Ally_McBeal.Annotations-1.1.tar.gz">Ally_McBeal.Annotations-1.1</a></li>
+    </ul>
+</div>
+<div>This archive contains the following annotations:</div>
+<div>
+    <pre>== 3 timeline(s) ==
+segmentation/scenes ..................... Scene segmentation
+segmentation/shots ...................... Shot segmentation
+segmentation/speakers ................... Speaker diarization
+== 1 dataset(s) ==
+speakers ................................ Speaker identity</pre>
+    </div>
+    <div>In order to use them, you must first <a href="http://pinocchio.niderb.fr">download</a> and install the pinocchIO library.</div>
+    <p>&nbsp;</p>
+    <div><strong>Shot segmentation</strong></div>
+    <div>
+        <pre>$ piodump --timeline=segmentation/shots file.pio</pre>
+    </div>
+    <div><strong>Scene segmentation</strong></div>
+    <div>
+        <pre>$ piodump --timeline=segmentation/scenes file.pio</pre>
+    </div>
+    <div><strong>Speakers</strong></div>
+    <div>
+        <pre>$ piodump --dataset=speakers --string --timestamp file.pio</pre>
+    </div>

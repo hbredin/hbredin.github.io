@@ -1,12 +1,7 @@
 ---
 date: '2011-02-10 16:27:31'
 layout: post
-slug: jobdependencygrap
-status: publish
 title: Visualizing SGE Job Dependency Graph
-wordpress_id: '509'
-categories:
-- Code
 tags:
 - release
 - sge

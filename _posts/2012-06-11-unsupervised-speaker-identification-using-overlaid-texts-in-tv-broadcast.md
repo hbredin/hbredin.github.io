@@ -3,8 +3,7 @@ layout: post
 title: "Unsupervised Speaker Identification using Overlaid Texts in TV Broadcast"
 tagline: InterSpeech 2012
 description: "Interspeech 2012"
-category: 
-- publications
+category: publications
 tags: 
 - reproducible_research
 ---

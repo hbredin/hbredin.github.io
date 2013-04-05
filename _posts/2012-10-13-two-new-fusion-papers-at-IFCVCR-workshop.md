@@ -3,8 +3,7 @@ layout: post
 title: "Two new papers dealing with multimodal fusion"
 tagline: "ECCV 2012 / IFCVCR workshop"
 description: "ECCV 2012 / IFCVCR workshop"
-category: 
-- publications
+category: publications
 tags: 
 - multimodal fusion
 ---

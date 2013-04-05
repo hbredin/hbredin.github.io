@@ -3,12 +3,7 @@ date: '2011-10-17 10:00:12'
 layout: post
 title: Introducing PyAFE toolkit
 categories:
-tags:
-- audio fingerprinting
-- evaluation
-- release
-- PyAFE
-- python
+tags: audio fingerprinting, evaluation, release, PyAFE, python
 ---
 
 **PyAFE** stands for **Py**thon **A**udio **F**ingerprinting **E**valuation.

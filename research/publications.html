@@ -2,15 +2,15 @@
 layout: page
 title: "Publications"
 description: ""
-tagline: "last updated on May 22, 2013"
+tagline: "last updated on August 21, 2013"
 group: research
 ---
 {% include JB/setup %}
 <ul class="nav nav-tabs">
-<li><a href="#All" data-toggle="tab">All (40)</a></li>
+<li><a href="#All" data-toggle="tab">All (42)</a></li>
 <li><a href="#Journalarticles" data-toggle="tab">Journal articles (5)</a></li>
 <li><a href="#Bookchapters" data-toggle="tab">Book chapters (3)</a></li>
-<li><a href="#Conferenceandworkshopproceedings" data-toggle="tab">Conference and workshop proceedings (31)</a></li>
+<li><a href="#Conferenceandworkshopproceedings" data-toggle="tab">Conference and workshop proceedings (33)</a></li>
 </ul>
 <div id="myTabContent" class="tab-content">
 <div class="tab-pane fade in active" id="All">
@@ -28,6 +28,34 @@ group: research
 <p><em>Interspeech 2013, 14th Annual Conference of the International Speech Communication Association</em></p>
 <blockquote><p>Most state-of-the-art approaches address speaker diarization as a hierarchical agglomerative clustering problem in the audio domain. In this paper, we propose to revisit one of them: speech turns clustering based on the Bayesian Information Criterion (a.k.a. BIC clustering). First, we show how to model it as an integer linear programming (ILP) problem.Its resolution leads to the same overall diarization error rate as standard BIC clustering but generates significantly purer speaker clusters. Then, we describe how this approach can easily be extended to the audiovisual domain and TV broadcast in particular. The straightforward integration of detected overlaid names (used to introduce guests or journalists, and obtained via video OCR) into a multimodal ILP problem yields significantly better speaker diarization results. Finally, we explain how this novel paradigm can incidentally be used for unsupervised speaker identification (i.e. not relying on any prior acoustic speaker models). Experiments on the REPERE TV broadcast corpus show that it achieves performance close to that of an oracle capable of identifying any speaker as long as their name appears on screen at least once in the video.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2013']);">.bib</a> [Bredin2013] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2013.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2013']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2013a_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2013a']);">
+        QCompere @ REPERE 2013
+        </a>
+    </div>
+    <div id="collapseBredin2013a_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Johann Poignant, Guillaume Fortier, Makarand Tapaswi, Viet-Bac Le, Anindya Roy, Claude Barras, Sophie Rosset, Achintya Sarkar, Qian Yang, Hua Gao, Alexis Mignon, Jakob Verbeek, Laurent Besacier, Georges Quénot, Hazim Kemal Ekenel, Rainer Stiefelhagen
+<p><em>SLAM 2013, First Workshop on Speech, Language and Audio for Multimedia</em></p>
+<blockquote><p>We describe QCompere consortium submissions to the REPERE 2013 evaluation campaign. The REPERE challenge aims at gathering four communities (face recognition, speaker identification, optical character recognition and named entity detection) towards the same goal: multimodal person recognition in TV broadcast. First, four mono-modal components are introduced (one for each foregoing community) constituting the elementary building blocks of our various submissions. Then, depending on the target modality (speaker or face recognition) and on the task (supervised or unsupervised recognition), four different fusion techniques are introduced: they can be summarized as propagation-, classifier-, rule- or graph-based approaches. Finally, their performance is evaluated on REPERE 2013 test set and their advantages and limitations are discussed.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2013a']);">.bib</a> [Bredin2013a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2013a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2013a']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapsePoignant2013_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Poignant2013']);">
+        Towards a Better Integration of Written Names for Unsupervised Speakers Identification in Videos
+        </a>
+    </div>
+    <div id="collapsePoignant2013_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Johann Poignant, Hervé Bredin, Laurent Besacier, Georges Quénot, Claude Barras
+<p><em>SLAM 2013, First Workshop on Speech, Language and Audio for Multimedia</em></p>
+<blockquote><p>Existing methods for unsupervised identification of speakers in TV broadcast usually rely on the output of a speaker diarization module and try to name each cluster using names provided by another source of information: we call it ``late naming''. Hence, written names extracted from title blocks tend to lead to high precision identification, although they cannot correct errors made during the clustering step. In this paper, we extend our previous ``late naming'' approach in two ways: ``integrated naming'' and ``early naming''. While ``late naming'' relies on a speaker diarization module optimized for speaker diarization, ``integrated naming'' jointly optimize speaker diarization and name propagation in terms of identification errors. ``Early naming'' modifies the speaker diarization module by adding constraints preventing two clusters with different written names to be merged together. While ``integrated naming'' yields similar identification performance as ``late naming'' (with better precision), ``early naming'' improves over this baseline both in terms of identification error rate and stability of the clustering stopping criterion.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Poignant2013']);">.bib</a> [Poignant2013] | <i class="icon-book"></i> <a href="/download/pdfs/Poignant2013.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Poignant2013']);">.pdf</a>        </div>
     </div>
 </div>
 <h3>2012</h3>
@@ -695,6 +723,34 @@ group: research
 <p><em>Interspeech 2013, 14th Annual Conference of the International Speech Communication Association</em></p>
 <blockquote><p>Most state-of-the-art approaches address speaker diarization as a hierarchical agglomerative clustering problem in the audio domain. In this paper, we propose to revisit one of them: speech turns clustering based on the Bayesian Information Criterion (a.k.a. BIC clustering). First, we show how to model it as an integer linear programming (ILP) problem.Its resolution leads to the same overall diarization error rate as standard BIC clustering but generates significantly purer speaker clusters. Then, we describe how this approach can easily be extended to the audiovisual domain and TV broadcast in particular. The straightforward integration of detected overlaid names (used to introduce guests or journalists, and obtained via video OCR) into a multimodal ILP problem yields significantly better speaker diarization results. Finally, we explain how this novel paradigm can incidentally be used for unsupervised speaker identification (i.e. not relying on any prior acoustic speaker models). Experiments on the REPERE TV broadcast corpus show that it achieves performance close to that of an oracle capable of identifying any speaker as long as their name appears on screen at least once in the video.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2013']);">.bib</a> [Bredin2013] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2013.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2013']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2013a_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2013a']);">
+        QCompere @ REPERE 2013
+        </a>
+    </div>
+    <div id="collapseBredin2013a_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Johann Poignant, Guillaume Fortier, Makarand Tapaswi, Viet-Bac Le, Anindya Roy, Claude Barras, Sophie Rosset, Achintya Sarkar, Qian Yang, Hua Gao, Alexis Mignon, Jakob Verbeek, Laurent Besacier, Georges Quénot, Hazim Kemal Ekenel, Rainer Stiefelhagen
+<p><em>SLAM 2013, First Workshop on Speech, Language and Audio for Multimedia</em></p>
+<blockquote><p>We describe QCompere consortium submissions to the REPERE 2013 evaluation campaign. The REPERE challenge aims at gathering four communities (face recognition, speaker identification, optical character recognition and named entity detection) towards the same goal: multimodal person recognition in TV broadcast. First, four mono-modal components are introduced (one for each foregoing community) constituting the elementary building blocks of our various submissions. Then, depending on the target modality (speaker or face recognition) and on the task (supervised or unsupervised recognition), four different fusion techniques are introduced: they can be summarized as propagation-, classifier-, rule- or graph-based approaches. Finally, their performance is evaluated on REPERE 2013 test set and their advantages and limitations are discussed.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2013a']);">.bib</a> [Bredin2013a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2013a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2013a']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapsePoignant2013_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Poignant2013']);">
+        Towards a Better Integration of Written Names for Unsupervised Speakers Identification in Videos
+        </a>
+    </div>
+    <div id="collapsePoignant2013_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Johann Poignant, Hervé Bredin, Laurent Besacier, Georges Quénot, Claude Barras
+<p><em>SLAM 2013, First Workshop on Speech, Language and Audio for Multimedia</em></p>
+<blockquote><p>Existing methods for unsupervised identification of speakers in TV broadcast usually rely on the output of a speaker diarization module and try to name each cluster using names provided by another source of information: we call it ``late naming''. Hence, written names extracted from title blocks tend to lead to high precision identification, although they cannot correct errors made during the clustering step. In this paper, we extend our previous ``late naming'' approach in two ways: ``integrated naming'' and ``early naming''. While ``late naming'' relies on a speaker diarization module optimized for speaker diarization, ``integrated naming'' jointly optimize speaker diarization and name propagation in terms of identification errors. ``Early naming'' modifies the speaker diarization module by adding constraints preventing two clusters with different written names to be merged together. While ``integrated naming'' yields similar identification performance as ``late naming'' (with better precision), ``early naming'' improves over this baseline both in terms of identification error rate and stability of the clustering stopping criterion.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Poignant2013']);">.bib</a> [Poignant2013] | <i class="icon-book"></i> <a href="/download/pdfs/Poignant2013.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Poignant2013']);">.pdf</a>        </div>
     </div>
 </div>
 <h3>2012</h3>

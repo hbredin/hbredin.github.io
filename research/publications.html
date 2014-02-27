@@ -2,19 +2,62 @@
 layout: page
 title: "Publications"
 description: ""
-tagline: "last updated on August 21, 2013"
+tagline: "last updated on February 27, 2014"
 group: research
 ---
 {% include JB/setup %}
 <ul class="nav nav-tabs">
-<li><a href="#All" data-toggle="tab">All (42)</a></li>
-<li><a href="#Journalarticles" data-toggle="tab">Journal articles (5)</a></li>
-<li><a href="#Bookchapters" data-toggle="tab">Book chapters (3)</a></li>
-<li><a href="#Conferenceandworkshopproceedings" data-toggle="tab">Conference and workshop proceedings (33)</a></li>
+<li><a href="#All" data-toggle="tab">All (45)</a></li>
+<li><a href="#Journalarticles" data-toggle="tab">Journal articles (6)</a></li>
+<li><a href="#Bookchapters" data-toggle="tab">Book chapters (4)</a></li>
+<li><a href="#Conferenceandworkshopproceedings" data-toggle="tab">Conference and workshop proceedings (34)</a></li>
 </ul>
 <div id="myTabContent" class="tab-content">
 <div class="tab-pane fade in active" id="All">
 <div class="accordion" id="accordionAll">
+<h3>2014</h3>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseStrat2014_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Strat2014']);">
+        Hierarchical Late Fusion for Concept Detection in Videos
+        </a>
+    </div>
+    <div id="collapseStrat2014_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Sabin Tiberius Strat, Alexandre Benoit, Patrick Lambert, Hervé Bredin, Georges Quénot
+<p><em>Fusion in Computer Vision -- Understanding Complex Visual Content</em></p>
+<blockquote><p>Current research shows that the detection of semantic concepts (animal, bus, person, dancing etc.) in multimedia documents such as videos, requires the use of several types of complementary descriptors in order to achieve good results. In this work, we explore strategies for combining dozens of complementary content descriptors (or ``experts'') in an efficient way, through the use of late fusion approaches, for concept detection in multimedia documents. We explore two fusion approaches that share a common structure: both start with a clustering of experts stage, continue with an intra-cluster fusion and finish with an inter-cluster fusion, and we also experiment with other state-of-the-art methods. The first fusion approach relies on a priori knowledge about the internals of each expert to group the set of available experts by similarity. The second approach automatically obtains measures on the similarity of experts from their output to group the experts using agglomerative clustering, and then combines the results of this fusion with those from other methods. In the end, we show that an additional performance boost can be obtained by also considering the context of multimedia elements.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Strat2014']);">.bib</a> [Strat2014] | <i class="icon-book"></i> <a href="/download/pdfs/Strat2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Strat2014']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseRoy2014_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Roy2014']);">
+        Lexical Speaker Identification in TV Shows
+        </a>
+    </div>
+    <div id="collapseRoy2014_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Anindya Roy, Hervé Bredin, William Hartmann, Viet-Bac Le, Claude Barras, Jean-Luc Gauvain
+<p><em>Multimedia Tools and Applications</em></p>
+<blockquote><p>It is possible to use lexical information extracted from speech transcripts for speaker identification (SID), either on its own or to improve the performance of standard cepstral-based SID systems upon fusion. This was established before typically using isolated speech from single speakers (NIST SRE corpora, parliamentary speeches). On the contrary, this work applies lexical approaches for SID on a different type of data. It uses the REPERE corpus consisting of unsegmented multiparty conversations, mostly debates, discussions and Q&A sessions from TV shows. It is hypothesized that people give out clues to their identity when speaking in such settings which this work aims to exploit. The impact on SID performance of the diarization front-end required to pre-process the unsegmented data is also measured. Four lexical SID approaches are studied in this work, including TFIDF, BM25 and LDA-based topic modeling. Results are analysed in terms of TV shows and speaker roles. Lexical approaches achieve low error rates for certain speaker roles such as anchors and journalists, sometimes lower than a standard cepstral-based Gaussian Supervector -- Support Vector Machine (GSV-SVM) system. Also, in certain cases, the lexical system shows modest improvement over the cepstral-based system performance using score-level sum fusion. To highlight the potential of using lexical information not just to improve upon cepstral-based SID systems but as an independent approach in its own right, initial studies on crossmedia SID is briefly reported. Instead of using speech data as all cepstral systems require, this approach uses Wikipedia texts to train lexical speaker models which are then tested on speech transcripts to identify speakers.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Roy2014']);">.bib</a> [Roy2014] | <i class="icon-book"></i> <a href="/download/pdfs/Roy2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Roy2014']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseRoy2014a_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Roy2014a']);">
+        TVD: a Reproducible and Multiply Aligned TV Series Dataset
+        </a>
+    </div>
+    <div id="collapseRoy2014a_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Anindya Roy, Camille Guinaudeau, Hervé Bredin, Claude Barras
+<p><em>LREC 2014, 9th Language Resources and Evaluation Conference</em></p>
+<blockquote><p>We present a new dataset built around two TV series, The Big Bang Theory (a situation comedy) and Game of Thrones (a fantasy drama). It has multiple tracks including dialogue, crowd-sourced textual descriptions and metadata, all time-stamped and temporally aligned with each other. We provide tools to reproduce it for research purposes, provided that one has legally acquired the DVDs of the series. The alignment algorithm used is evaluated on a manually aligned subset of the data.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Roy2014a']);">.bib</a> [Roy2014a] | <i class="icon-book"></i> <a href="/download/pdfs/Roy2014a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Roy2014a']);">.pdf</a>        </div>
+    </div>
+</div>
 <h3>2013</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
@@ -131,6 +174,20 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2012a_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Ercolessi2012a']);">
+        Vers un Résumé Automatique de Séries Télévisées basé sur une Recherche Multimodale d'Histoires
+        </a>
+    </div>
+    <div id="collapseErcolessi2012a_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Philippe Ercolessi, Christine Sénac, Hervé Bredin, Sandrine Mouysset
+<p><em>Document Numérique -- Numéro Spécial ``Résumé Automatique des Documents''</em></p>
+<blockquote><p>Modern TV series have complex plots made of several intertwined stories following numerous characters. In this paper, we propose an approach for automatically detecting these stories in order to generate video summaries and we propose a visualization tool to have a quick and easy look at TV series. Based on automatic scene segmentation of each TV series episode (a scene is defined as temporally and spatially continuous and semantically coherent), scenes are clustered into stories, made of (non necessarily adjacent) semantically similar scenes. Visual, audio and text modalities are combined to achieve better scene segmentation and story detection performance. An extraction of salient scenes from stories is performed to create the summary. Experimentations are conducted on two TV series with different formats.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Ercolessi2012a']);">.bib</a> [Ercolessi2012a] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Ercolessi2012a']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2012b_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2012b']);">
         Fusion of Speech, Faces and Text for Person Identification in TV Broadcast
         </a>
@@ -185,35 +242,7 @@ group: research
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Ercolessi2012c']);">.bib</a> [Ercolessi2012c] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012c.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Ercolessi2012c']);">.pdf</a>        </div>
     </div>
 </div>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2012a_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Ercolessi2012a']);">
-        Vers un Résumé Automatique de Séries Télévisées basé sur une Recherche Multimodale d'Histoires
-        </a>
-    </div>
-    <div id="collapseErcolessi2012a_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Philippe Ercolessi, Christine Sénac, Hervé Bredin, Sandrine Mouysset
-<p><em>Document Numérique -- Numéro Spécial ``Résumé Automatique des Documents''</em></p>
-<blockquote><p>Modern TV series have complex plots made of several intertwined stories following numerous characters. In this paper, we propose an approach for automatically detecting these stories in order to generate video summaries and we propose a visualization tool to have a quick and easy look at TV series. Based on automatic scene segmentation of each TV series episode (a scene is defined as temporally and spatially continuous and semantically coherent), scenes are clustered into stories, made of (non necessarily adjacent) semantically similar scenes. Visual, audio and text modalities are combined to achieve better scene segmentation and story detection performance. An extraction of salient scenes from stories is performed to create the summary. Experimentations are conducted on two TV series with different formats.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Ercolessi2012a']);">.bib</a> [Ercolessi2012a] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2012a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Ercolessi2012a']);">.pdf</a>        </div>
-    </div>
-</div>
 <h3>2011</h3>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2011_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Ercolessi2011']);">
-        Segmenting TV Series into Scenes using Speaker Diarization
-        </a>
-    </div>
-    <div id="collapseErcolessi2011_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Philippe Ercolessi, Hervé Bredin, Christine Sénac, Philippe Joly
-<p><em>WIAMIS 2011, 12th International Workshop on Image Analysis for Multimedia Interactive Services</em></p>
-<blockquote><p>In this paper, we propose a novel approach to perform scene segmentation of TV series. Using the output of our existing speaker diarization system, any temporal segment of the video can be described as a binary feature vector. A straightforward segmentation algorithm then allows to group similar contiguous speaker segments into scenes. An additional visual-only color-based segmentation is then used to refine the first segmentation. Experiments are performed on a subset of the Ally McBeal TV series and show promising results, obtained with a rule-free and generic method. For comparison purposes, test corpus annotations and description are made available to the community.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Ercolessi2011']);">.bib</a> [Ercolessi2011] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2011.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Ercolessi2011']);">.pdf</a>        </div>
-    </div>
-</div>
 <div class="accordion-group">
     <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseGorisse2011_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Gorisse2011']);">
@@ -226,6 +255,20 @@ group: research
 <p><em>TRECVid 2010, TREC Video Retrieval Evaluation Online Proceedings</em></p>
 <blockquote><p>The IRIM group is a consortium of French teams working on Multimedia Indexing and Retrieval. This paper describes our participation to the TRECVID 2010 semantic indexing and instance search tasks. For the semantic indexing task, we evaluated a number of different descriptors and tried different fusion strategies, in particular hierarchical fusion. The best IRIM run has a Mean Inferred Average Precision of 0.0442, which is above the task median performance. We found that fusion of the classification scores from different classifier types improves the performance and that even with a quite low individual performance, audio descriptors can help. For the instance search task, we used only one of the example images in our queries. The rank is nearly in the middle of the list of participants. The experiment showed that HSV features outperform the concatenation of HSV and Edge histograms or the Wavelet features.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Gorisse2011']);">.bib</a> [Gorisse2011] | <i class="icon-book"></i> <a href="/download/pdfs/Gorisse2011.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Gorisse2011']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseErcolessi2011_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Ercolessi2011']);">
+        Segmenting TV Series into Scenes using Speaker Diarization
+        </a>
+    </div>
+    <div id="collapseErcolessi2011_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Philippe Ercolessi, Hervé Bredin, Christine Sénac, Philippe Joly
+<p><em>WIAMIS 2011, 12th International Workshop on Image Analysis for Multimedia Interactive Services</em></p>
+<blockquote><p>In this paper, we propose a novel approach to perform scene segmentation of TV series. Using the output of our existing speaker diarization system, any temporal segment of the video can be described as a binary feature vector. A straightforward segmentation algorithm then allows to group similar contiguous speaker segments into scenes. An additional visual-only color-based segmentation is then used to refine the first segmentation. Experiments are performed on a subset of the Ally McBeal TV series and show promising results, obtained with a rule-free and generic method. For comparison purposes, test corpus annotations and description are made available to the community.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Ercolessi2011']);">.bib</a> [Ercolessi2011] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2011.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Ercolessi2011']);">.pdf</a>        </div>
     </div>
 </div>
 <div class="accordion-group">
@@ -245,19 +288,6 @@ group: research
 <h3>2010</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2010_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2010']);">
-        IRIT at TRECVID HLF 2009: Audio to the Rescue
-        </a>
-    </div>
-    <div id="collapseBredin2010_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Hervé Bredin, Lionel Koenig, Hélène Lachambre, Elie El Khoury
-<p><em>TRECVid 2009, TREC Video Retrieval Evaluation Online Proceedings</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2010']);">.bib</a> [Bredin2010] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2010.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2010']);">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseDelezoide2010_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Delezoide2010']);">
         IRIM at TRECVID 2009: High Level Feature Extraction
         </a>
@@ -268,6 +298,19 @@ group: research
 <p><em>TRECVid 2009, TREC Video Retrieval Evaluation Online Proceedings</em></p>
 <blockquote><p>The IRIM group is a consortium of French teams working on Multimedia Indexing and Retrieval. This paper describes our participation to the TRECVID 2009 High Level Features detection task. We evaluated a large number of different descriptors (on TRECVID 2008 data) and tried different fusion strategies, in particular hierarchical fusion and genetic fusion. The best IRIM run has a Mean Inferred Average Precision of 0.1220, which is significantly above TRECVID 2009 HLF detection task median performance. We found that fusion of the classification scores from different classifier types improves the performance and that even with a quite low individual performance, audio descriptors can help.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Delezoide2010']);">.bib</a> [Delezoide2010] | <i class="icon-book"></i> <a href="/download/pdfs/Delezoide2010.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Delezoide2010']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2010_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2010']);">
+        IRIT at TRECVID HLF 2009: Audio to the Rescue
+        </a>
+    </div>
+    <div id="collapseBredin2010_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Lionel Koenig, Hélène Lachambre, Elie El Khoury
+<p><em>TRECVid 2009, TREC Video Retrieval Evaluation Online Proceedings</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2010']);">.bib</a> [Bredin2010] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2010.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2010']);">.pdf</a>        </div>
     </div>
 </div>
 <h3>2009</h3>
@@ -590,6 +633,21 @@ group: research
 </div>
 <div class="tab-pane fade in" id="Journalarticles">
 <div class="accordion" id="accordionJournalarticles">
+<h3>2014</h3>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionJournalarticles" href="#collapseRoy2014_Journalarticles" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Roy2014']);">
+        Lexical Speaker Identification in TV Shows
+        </a>
+    </div>
+    <div id="collapseRoy2014_Journalarticles" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Anindya Roy, Hervé Bredin, William Hartmann, Viet-Bac Le, Claude Barras, Jean-Luc Gauvain
+<p><em>Multimedia Tools and Applications</em></p>
+<blockquote><p>It is possible to use lexical information extracted from speech transcripts for speaker identification (SID), either on its own or to improve the performance of standard cepstral-based SID systems upon fusion. This was established before typically using isolated speech from single speakers (NIST SRE corpora, parliamentary speeches). On the contrary, this work applies lexical approaches for SID on a different type of data. It uses the REPERE corpus consisting of unsegmented multiparty conversations, mostly debates, discussions and Q&A sessions from TV shows. It is hypothesized that people give out clues to their identity when speaking in such settings which this work aims to exploit. The impact on SID performance of the diarization front-end required to pre-process the unsegmented data is also measured. Four lexical SID approaches are studied in this work, including TFIDF, BM25 and LDA-based topic modeling. Results are analysed in terms of TV shows and speaker roles. Lexical approaches achieve low error rates for certain speaker roles such as anchors and journalists, sometimes lower than a standard cepstral-based Gaussian Supervector -- Support Vector Machine (GSV-SVM) system. Also, in certain cases, the lexical system shows modest improvement over the cepstral-based system performance using score-level sum fusion. To highlight the potential of using lexical information not just to improve upon cepstral-based SID systems but as an independent approach in its own right, initial studies on crossmedia SID is briefly reported. Instead of using speech data as all cepstral systems require, this approach uses Wikipedia texts to train lexical speaker models which are then tested on speech transcripts to identify speakers.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Roy2014']);">.bib</a> [Roy2014] | <i class="icon-book"></i> <a href="/download/pdfs/Roy2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Roy2014']);">.pdf</a>        </div>
+    </div>
+</div>
 <h3>2012</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
@@ -665,6 +723,21 @@ group: research
 </div>
 <div class="tab-pane fade in" id="Bookchapters">
 <div class="accordion" id="accordionBookchapters">
+<h3>2014</h3>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionBookchapters" href="#collapseStrat2014_Bookchapters" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Strat2014']);">
+        Hierarchical Late Fusion for Concept Detection in Videos
+        </a>
+    </div>
+    <div id="collapseStrat2014_Bookchapters" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Sabin Tiberius Strat, Alexandre Benoit, Patrick Lambert, Hervé Bredin, Georges Quénot
+<p><em>Fusion in Computer Vision -- Understanding Complex Visual Content</em></p>
+<blockquote><p>Current research shows that the detection of semantic concepts (animal, bus, person, dancing etc.) in multimedia documents such as videos, requires the use of several types of complementary descriptors in order to achieve good results. In this work, we explore strategies for combining dozens of complementary content descriptors (or ``experts'') in an efficient way, through the use of late fusion approaches, for concept detection in multimedia documents. We explore two fusion approaches that share a common structure: both start with a clustering of experts stage, continue with an intra-cluster fusion and finish with an inter-cluster fusion, and we also experiment with other state-of-the-art methods. The first fusion approach relies on a priori knowledge about the internals of each expert to group the set of available experts by similarity. The second approach automatically obtains measures on the similarity of experts from their output to group the experts using agglomerative clustering, and then combines the results of this fusion with those from other methods. In the end, we show that an additional performance boost can be obtained by also considering the context of multimedia elements.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Strat2014']);">.bib</a> [Strat2014] | <i class="icon-book"></i> <a href="/download/pdfs/Strat2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Strat2014']);">.pdf</a>        </div>
+    </div>
+</div>
 <h3>2009</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
@@ -710,6 +783,21 @@ group: research
 </div>
 <div class="tab-pane fade in" id="Conferenceandworkshopproceedings">
 <div class="accordion" id="accordionConferenceandworkshopproceedings">
+<h3>2014</h3>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseRoy2014a_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Roy2014a']);">
+        TVD: a Reproducible and Multiply Aligned TV Series Dataset
+        </a>
+    </div>
+    <div id="collapseRoy2014a_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Anindya Roy, Camille Guinaudeau, Hervé Bredin, Claude Barras
+<p><em>LREC 2014, 9th Language Resources and Evaluation Conference</em></p>
+<blockquote><p>We present a new dataset built around two TV series, The Big Bang Theory (a situation comedy) and Game of Thrones (a fantasy drama). It has multiple tracks including dialogue, crowd-sourced textual descriptions and metadata, all time-stamped and temporally aligned with each other. We provide tools to reproduce it for research purposes, provided that one has legally acquired the DVDs of the series. The alignment algorithm used is evaluated on a manually aligned subset of the data.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Roy2014a']);">.bib</a> [Roy2014a] | <i class="icon-book"></i> <a href="/download/pdfs/Roy2014a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Roy2014a']);">.pdf</a>        </div>
+    </div>
+</div>
 <h3>2013</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
@@ -883,20 +971,6 @@ group: research
 <h3>2011</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseErcolessi2011_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Ercolessi2011']);">
-        Segmenting TV Series into Scenes using Speaker Diarization
-        </a>
-    </div>
-    <div id="collapseErcolessi2011_Conferenceandworkshopproceedings" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Philippe Ercolessi, Hervé Bredin, Christine Sénac, Philippe Joly
-<p><em>WIAMIS 2011, 12th International Workshop on Image Analysis for Multimedia Interactive Services</em></p>
-<blockquote><p>In this paper, we propose a novel approach to perform scene segmentation of TV series. Using the output of our existing speaker diarization system, any temporal segment of the video can be described as a binary feature vector. A straightforward segmentation algorithm then allows to group similar contiguous speaker segments into scenes. An additional visual-only color-based segmentation is then used to refine the first segmentation. Experiments are performed on a subset of the Ally McBeal TV series and show promising results, obtained with a rule-free and generic method. For comparison purposes, test corpus annotations and description are made available to the community.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Ercolessi2011']);">.bib</a> [Ercolessi2011] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2011.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Ercolessi2011']);">.pdf</a>        </div>
-    </div>
-</div>
-<div class="accordion-group">
-    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseGorisse2011_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Gorisse2011']);">
         IRIM at TRECVID 2010: Semantic Indexing and Instance Search
         </a>
@@ -909,20 +983,21 @@ group: research
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Gorisse2011']);">.bib</a> [Gorisse2011] | <i class="icon-book"></i> <a href="/download/pdfs/Gorisse2011.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Gorisse2011']);">.pdf</a>        </div>
     </div>
 </div>
-<h3>2010</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2010_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2010']);">
-        IRIT at TRECVID HLF 2009: Audio to the Rescue
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseErcolessi2011_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Ercolessi2011']);">
+        Segmenting TV Series into Scenes using Speaker Diarization
         </a>
     </div>
-    <div id="collapseBredin2010_Conferenceandworkshopproceedings" class="accordion-body collapse">
+    <div id="collapseErcolessi2011_Conferenceandworkshopproceedings" class="accordion-body collapse">
         <div class="accordion-inner">
-        Hervé Bredin, Lionel Koenig, Hélène Lachambre, Elie El Khoury
-<p><em>TRECVid 2009, TREC Video Retrieval Evaluation Online Proceedings</em></p>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2010']);">.bib</a> [Bredin2010] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2010.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2010']);">.pdf</a>        </div>
+        Philippe Ercolessi, Hervé Bredin, Christine Sénac, Philippe Joly
+<p><em>WIAMIS 2011, 12th International Workshop on Image Analysis for Multimedia Interactive Services</em></p>
+<blockquote><p>In this paper, we propose a novel approach to perform scene segmentation of TV series. Using the output of our existing speaker diarization system, any temporal segment of the video can be described as a binary feature vector. A straightforward segmentation algorithm then allows to group similar contiguous speaker segments into scenes. An additional visual-only color-based segmentation is then used to refine the first segmentation. Experiments are performed on a subset of the Ally McBeal TV series and show promising results, obtained with a rule-free and generic method. For comparison purposes, test corpus annotations and description are made available to the community.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Ercolessi2011']);">.bib</a> [Ercolessi2011] | <i class="icon-book"></i> <a href="/download/pdfs/Ercolessi2011.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Ercolessi2011']);">.pdf</a>        </div>
     </div>
 </div>
+<h3>2010</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseDelezoide2010_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Delezoide2010']);">
@@ -935,6 +1010,19 @@ group: research
 <p><em>TRECVid 2009, TREC Video Retrieval Evaluation Online Proceedings</em></p>
 <blockquote><p>The IRIM group is a consortium of French teams working on Multimedia Indexing and Retrieval. This paper describes our participation to the TRECVID 2009 High Level Features detection task. We evaluated a large number of different descriptors (on TRECVID 2008 data) and tried different fusion strategies, in particular hierarchical fusion and genetic fusion. The best IRIM run has a Mean Inferred Average Precision of 0.1220, which is significantly above TRECVID 2009 HLF detection task median performance. We found that fusion of the classification scores from different classifier types improves the performance and that even with a quite low individual performance, audio descriptors can help.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Delezoide2010']);">.bib</a> [Delezoide2010] | <i class="icon-book"></i> <a href="/download/pdfs/Delezoide2010.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Delezoide2010']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2010_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2010']);">
+        IRIT at TRECVID HLF 2009: Audio to the Rescue
+        </a>
+    </div>
+    <div id="collapseBredin2010_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Lionel Koenig, Hélène Lachambre, Elie El Khoury
+<p><em>TRECVid 2009, TREC Video Retrieval Evaluation Online Proceedings</em></p>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2010']);">.bib</a> [Bredin2010] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2010.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2010']);">.pdf</a>        </div>
     </div>
 </div>
 <h3>2009</h3>

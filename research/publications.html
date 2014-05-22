@@ -2,34 +2,20 @@
 layout: page
 title: "Publications"
 description: ""
-tagline: "last updated on February 27, 2014"
+tagline: "last updated on May 22, 2014"
 group: research
 ---
 {% include JB/setup %}
 <ul class="nav nav-tabs">
-<li><a href="#All" data-toggle="tab">All (45)</a></li>
-<li><a href="#Journalarticles" data-toggle="tab">Journal articles (6)</a></li>
+<li><a href="#All" data-toggle="tab">All (49)</a></li>
+<li><a href="#Journalarticles" data-toggle="tab">Journal articles (7)</a></li>
 <li><a href="#Bookchapters" data-toggle="tab">Book chapters (4)</a></li>
-<li><a href="#Conferenceandworkshopproceedings" data-toggle="tab">Conference and workshop proceedings (34)</a></li>
+<li><a href="#Conferenceandworkshopproceedings" data-toggle="tab">Conference and workshop proceedings (37)</a></li>
 </ul>
 <div id="myTabContent" class="tab-content">
 <div class="tab-pane fade in active" id="All">
 <div class="accordion" id="accordionAll">
 <h3>2014</h3>
-<div class="accordion-group">
-    <div class="accordion-heading">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseStrat2014_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Strat2014']);">
-        Hierarchical Late Fusion for Concept Detection in Videos
-        </a>
-    </div>
-    <div id="collapseStrat2014_All" class="accordion-body collapse">
-        <div class="accordion-inner">
-        Sabin Tiberius Strat, Alexandre Benoit, Patrick Lambert, Hervé Bredin, Georges Quénot
-<p><em>Fusion in Computer Vision -- Understanding Complex Visual Content</em></p>
-<blockquote><p>Current research shows that the detection of semantic concepts (animal, bus, person, dancing etc.) in multimedia documents such as videos, requires the use of several types of complementary descriptors in order to achieve good results. In this work, we explore strategies for combining dozens of complementary content descriptors (or ``experts'') in an efficient way, through the use of late fusion approaches, for concept detection in multimedia documents. We explore two fusion approaches that share a common structure: both start with a clustering of experts stage, continue with an intra-cluster fusion and finish with an inter-cluster fusion, and we also experiment with other state-of-the-art methods. The first fusion approach relies on a priori knowledge about the internals of each expert to group the set of available experts by similarity. The second approach automatically obtains measures on the similarity of experts from their output to group the experts using agglomerative clustering, and then combines the results of this fusion with those from other methods. In the end, we show that an additional performance boost can be obtained by also considering the context of multimedia elements.</p></blockquote>
-<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Strat2014']);">.bib</a> [Strat2014] | <i class="icon-book"></i> <a href="/download/pdfs/Strat2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Strat2014']);">.pdf</a>        </div>
-    </div>
-</div>
 <div class="accordion-group">
     <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseRoy2014_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Roy2014']);">
@@ -46,6 +32,20 @@ group: research
 </div>
 <div class="accordion-group">
     <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2014_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2014']);">
+        Person Instance Graphs for Mono-, Cross- and Multi-Modal Person Recognition in Multimedia Data. Application to Speaker Identification in TV Broadcast
+        </a>
+    </div>
+    <div id="collapseBredin2014_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Anindya Roy, Viet-Bac Le, Claude Barras
+<p><em>International Journal of Multimedia Information Retrieval</em></p>
+<blockquote><p>This work introduces a unified framework for mono-, cross- and multi-modal person recognition in multimedia data. Dubbed Person Instance Graph, it models the person recognition task as a graph mining problem: i.e. finding the best mapping between person instance vertices and identity vertices. Practically, we describe how the approach can be applied to speaker identification in TV broadcast. Then, a solution to the above-mentioned mapping problem is proposed. It relies on Integer Linear Programming to model the problem of clustering person instances based on their identity. We provide an in-depth theoretical definition of the optimization problem. Moreover, we improve two fundamental aspects of our previous related work: the problem constraints and the optimized objective function. Finally, a thorough experimental evaluation of the proposed framework is performed on a publicly available benchmark database. Depending on the graph configuration (i.e. the choice of its vertices and edges), we show that multiple tasks can be addressed interchangeably (e.g. speaker diarization, supervised or unsupervised speaker identification), significantly outperforming state-of-the-art mono-modal approaches.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2014']);">.bib</a> [Bredin2014] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2014']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseRoy2014a_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Roy2014a']);">
         TVD: a Reproducible and Multiply Aligned TV Series Dataset
         </a>
@@ -56,6 +56,62 @@ group: research
 <p><em>LREC 2014, 9th Language Resources and Evaluation Conference</em></p>
 <blockquote><p>We present a new dataset built around two TV series, The Big Bang Theory (a situation comedy) and Game of Thrones (a fantasy drama). It has multiple tracks including dialogue, crowd-sourced textual descriptions and metadata, all time-stamped and temporally aligned with each other. We provide tools to reproduce it for research purposes, provided that one has legally acquired the DVDs of the series. The alignment algorithm used is evaluated on a manually aligned subset of the data.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Roy2014a']);">.bib</a> [Roy2014a] | <i class="icon-book"></i> <a href="/download/pdfs/Roy2014a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Roy2014a']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBredin2014a_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2014a']);">
+        Person Instance Graphs for Named Speaker Identification in TV Broadcast
+        </a>
+    </div>
+    <div id="collapseBredin2014a_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Antoine Laurent, Achintya Sarkar, Viet-Bac Le, Sophie Rosset, Claude Barras
+<p><em>Odyssey 2014, The Speaker and Language Recognition Workshop</em></p>
+<blockquote><p>We address the problem of named speaker identification in TV broadcast which consists in answering the question ''who speaks when?'' with the real identity of speakers, using person names automatically obtained from speech transcripts. While existing approaches rely on a first speaker diarization step followed by a local name propagation step to speaker clusters, we propose a unified framework called person instance graph where both steps are jointly modeled as a global optimization problem, then solved using integer linear programming. Moreover, when available, acoustic speaker models can be added seamlessly to the graph structure for joint named and acoustic speaker identification - leading to a 10% error decrease (from 45% down to 35%) over a state-of-the-art i-vector speaker identification system on the REPERE TV broadcast corpus.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2014a']);">.bib</a> [Bredin2014a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2014a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2014a']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseStrat2014_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Strat2014']);">
+        Hierarchical Late Fusion for Concept Detection in Videos
+        </a>
+    </div>
+    <div id="collapseStrat2014_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Sabin Tiberius Strat, Alexandre Benoit, Patrick Lambert, Hervé Bredin, Georges Quénot
+<p><em>Fusion in Computer Vision -- Understanding Complex Visual Content</em></p>
+<blockquote><p>Current research shows that the detection of semantic concepts (animal, bus, person, dancing etc.) in multimedia documents such as videos, requires the use of several types of complementary descriptors in order to achieve good results. In this work, we explore strategies for combining dozens of complementary content descriptors (or ``experts'') in an efficient way, through the use of late fusion approaches, for concept detection in multimedia documents. We explore two fusion approaches that share a common structure: both start with a clustering of experts stage, continue with an intra-cluster fusion and finish with an inter-cluster fusion, and we also experiment with other state-of-the-art methods. The first fusion approach relies on a priori knowledge about the internals of each expert to group the set of available experts by similarity. The second approach automatically obtains measures on the similarity of experts from their output to group the experts using agglomerative clustering, and then combines the results of this fusion with those from other methods. In the end, we show that an additional performance boost can be obtained by also considering the context of multimedia elements.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Strat2014']);">.bib</a> [Strat2014] | <i class="icon-book"></i> <a href="/download/pdfs/Strat2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Strat2014']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBruneau2014_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bruneau2014']);">
+        A Web-based Tool for the Visual Analysis of Media Annotations
+        </a>
+    </div>
+    <div id="collapseBruneau2014_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Pierrick Bruneau, Micka\¨el Stefas, Hervé Bredin, Anh-Phuong Ta, Thomas Tamisier, Claude Barras
+<p><em>iV 2014, 18th International Conference Information Visualisation</em></p>
+<blockquote><p>Multimedia annotation algorithms infer localized meta-data in multimedia content, e.g. speakers or appearing faces. There is a growing need of experts from this domain to perform advanced analyses, that go beyond medium-scale quality metrics. This paper describes a novel visual tool, that applies interactive visualization principles to the multimedia expert concerns. Multiple coordinated views, augmented by interactive inspection facilities, ease the navigation in media annotations, and the visual detection of relevant information. The effectiveness of the proposition is demonstrated by experimental scenarios on a real multimedia corpus.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bruneau2014']);">.bib</a> [Bruneau2014] | <i class="icon-book"></i> <a href="/download/pdfs/Bruneau2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bruneau2014']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionAll" href="#collapseBruneau2014a_All" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bruneau2014a']);">
+        Collaborative Annotation of Multimedia Resources
+        </a>
+    </div>
+    <div id="collapseBruneau2014a_All" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Pierrick Bruneau, Micka\¨el Stefas, Mateusz Budnik, Johann Poignant, Hervé Bredin, Thomas Tamisier, Beno\^it Otjacques
+<p><em>CDVE 2014, 11th International Conference on Cooperative Design, Visualization and Engineering</em></p>
+<blockquote><p>Reference multimedia corpora for use in automated annotation algorithms are very demanding of manual work. The Camomile project advocates the joint progress of automated annotation methods and tools for improving the benchmark resources. This paper shows some work in progress in interactive visualization of annotations, and perspectives in harnessing the collaboration between manual annotators, algorithm designers, and benchmark administrators.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bruneau2014a']);">.bib</a> [Bruneau2014a] | <i class="icon-book"></i> <a href="/download/pdfs/Bruneau2014a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bruneau2014a']);">.pdf</a>        </div>
     </div>
 </div>
 <h3>2013</h3>
@@ -648,6 +704,20 @@ group: research
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Roy2014']);">.bib</a> [Roy2014] | <i class="icon-book"></i> <a href="/download/pdfs/Roy2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Roy2014']);">.pdf</a>        </div>
     </div>
 </div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionJournalarticles" href="#collapseBredin2014_Journalarticles" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2014']);">
+        Person Instance Graphs for Mono-, Cross- and Multi-Modal Person Recognition in Multimedia Data. Application to Speaker Identification in TV Broadcast
+        </a>
+    </div>
+    <div id="collapseBredin2014_Journalarticles" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Anindya Roy, Viet-Bac Le, Claude Barras
+<p><em>International Journal of Multimedia Information Retrieval</em></p>
+<blockquote><p>This work introduces a unified framework for mono-, cross- and multi-modal person recognition in multimedia data. Dubbed Person Instance Graph, it models the person recognition task as a graph mining problem: i.e. finding the best mapping between person instance vertices and identity vertices. Practically, we describe how the approach can be applied to speaker identification in TV broadcast. Then, a solution to the above-mentioned mapping problem is proposed. It relies on Integer Linear Programming to model the problem of clustering person instances based on their identity. We provide an in-depth theoretical definition of the optimization problem. Moreover, we improve two fundamental aspects of our previous related work: the problem constraints and the optimized objective function. Finally, a thorough experimental evaluation of the proposed framework is performed on a publicly available benchmark database. Depending on the graph configuration (i.e. the choice of its vertices and edges), we show that multiple tasks can be addressed interchangeably (e.g. speaker diarization, supervised or unsupervised speaker identification), significantly outperforming state-of-the-art mono-modal approaches.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2014']);">.bib</a> [Bredin2014] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2014']);">.pdf</a>        </div>
+    </div>
+</div>
 <h3>2012</h3>
 <div class="accordion-group">
     <div class="accordion-heading">
@@ -796,6 +866,48 @@ group: research
 <p><em>LREC 2014, 9th Language Resources and Evaluation Conference</em></p>
 <blockquote><p>We present a new dataset built around two TV series, The Big Bang Theory (a situation comedy) and Game of Thrones (a fantasy drama). It has multiple tracks including dialogue, crowd-sourced textual descriptions and metadata, all time-stamped and temporally aligned with each other. We provide tools to reproduce it for research purposes, provided that one has legally acquired the DVDs of the series. The alignment algorithm used is evaluated on a manually aligned subset of the data.</p></blockquote>
 <i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Roy2014a']);">.bib</a> [Roy2014a] | <i class="icon-book"></i> <a href="/download/pdfs/Roy2014a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Roy2014a']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBredin2014a_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bredin2014a']);">
+        Person Instance Graphs for Named Speaker Identification in TV Broadcast
+        </a>
+    </div>
+    <div id="collapseBredin2014a_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Hervé Bredin, Antoine Laurent, Achintya Sarkar, Viet-Bac Le, Sophie Rosset, Claude Barras
+<p><em>Odyssey 2014, The Speaker and Language Recognition Workshop</em></p>
+<blockquote><p>We address the problem of named speaker identification in TV broadcast which consists in answering the question ''who speaks when?'' with the real identity of speakers, using person names automatically obtained from speech transcripts. While existing approaches rely on a first speaker diarization step followed by a local name propagation step to speaker clusters, we propose a unified framework called person instance graph where both steps are jointly modeled as a global optimization problem, then solved using integer linear programming. Moreover, when available, acoustic speaker models can be added seamlessly to the graph structure for joint named and acoustic speaker identification - leading to a 10% error decrease (from 45% down to 35%) over a state-of-the-art i-vector speaker identification system on the REPERE TV broadcast corpus.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bredin2014a']);">.bib</a> [Bredin2014a] | <i class="icon-book"></i> <a href="/download/pdfs/Bredin2014a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bredin2014a']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBruneau2014_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bruneau2014']);">
+        A Web-based Tool for the Visual Analysis of Media Annotations
+        </a>
+    </div>
+    <div id="collapseBruneau2014_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Pierrick Bruneau, Micka\¨el Stefas, Hervé Bredin, Anh-Phuong Ta, Thomas Tamisier, Claude Barras
+<p><em>iV 2014, 18th International Conference Information Visualisation</em></p>
+<blockquote><p>Multimedia annotation algorithms infer localized meta-data in multimedia content, e.g. speakers or appearing faces. There is a growing need of experts from this domain to perform advanced analyses, that go beyond medium-scale quality metrics. This paper describes a novel visual tool, that applies interactive visualization principles to the multimedia expert concerns. Multiple coordinated views, augmented by interactive inspection facilities, ease the navigation in media annotations, and the visual detection of relevant information. The effectiveness of the proposition is demonstrated by experimental scenarios on a real multimedia corpus.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bruneau2014']);">.bib</a> [Bruneau2014] | <i class="icon-book"></i> <a href="/download/pdfs/Bruneau2014.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bruneau2014']);">.pdf</a>        </div>
+    </div>
+</div>
+<div class="accordion-group">
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionConferenceandworkshopproceedings" href="#collapseBruneau2014a_Conferenceandworkshopproceedings" onClick="_gaq.push(['_trackEvent', 'Publications', 'Abstract', 'Bruneau2014a']);">
+        Collaborative Annotation of Multimedia Resources
+        </a>
+    </div>
+    <div id="collapseBruneau2014a_Conferenceandworkshopproceedings" class="accordion-body collapse">
+        <div class="accordion-inner">
+        Pierrick Bruneau, Micka\¨el Stefas, Mateusz Budnik, Johann Poignant, Hervé Bredin, Thomas Tamisier, Beno\^it Otjacques
+<p><em>CDVE 2014, 11th International Conference on Cooperative Design, Visualization and Engineering</em></p>
+<blockquote><p>Reference multimedia corpora for use in automated annotation algorithms are very demanding of manual work. The Camomile project advocates the joint progress of automated annotation methods and tools for improving the benchmark resources. This paper shows some work in progress in interactive visualization of annotations, and perspectives in harnessing the collaboration between manual annotators, algorithm designers, and benchmark administrators.</p></blockquote>
+<i class="icon-tags"></i> <a href="https://raw.github.com/hbredin/cv/master/publi/bredin.bib" onClick="_gaq.push(['_trackEvent', 'Publications', 'Bibtex', 'Bruneau2014a']);">.bib</a> [Bruneau2014a] | <i class="icon-book"></i> <a href="/download/pdfs/Bruneau2014a.pdf" onClick="_gaq.push(['_trackEvent', 'Publications', 'Download', 'Bruneau2014a']);">.pdf</a>        </div>
     </div>
 </div>
 <h3>2013</h3>

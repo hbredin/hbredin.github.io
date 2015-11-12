@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "MSc Internship - Machine learning for speaker diarization"
+title: "PhD - Machine learning for speaker diarization"
 description: ""
 group: "students"
 tags:

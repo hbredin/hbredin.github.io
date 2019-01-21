@@ -6,15 +6,15 @@ import sys
 
 def tidy(string):
     replacements = [("{", ""), ("}", ""),
-                    ("\\'a", "á"), 
+                    ("\\'a", "á"),
                     ("\\'e", "é"), ('\\"e', "ë"), ("\\`e", "è"),
-                    ("\\'i", "í"), ('\\"i', "ï"), ('\\`i', "ì"), 
-                    ("\\'o", "ó"), 
+                    ("\\'i", "í"), ('\\"i', "ï"), ('\\`i', "ì"),
+                    ("\\'o", "ó"),
                     ("\\'u", "ú"), ]
     for old, new in replacements:
         string = string.replace(old, new)
     return string
-    
+
 def print_tab_title(f, title, papers):
     href = ''.join(title.split())
     f.write('<li><a href="#%s" data-toggle="tab">%s (%d)</a></li>\n' % (href, title, len(papers)))
@@ -55,7 +55,7 @@ def print_tab_content(f, title, papers, active=False):
     f.write('</div>\n')
     f.write('</div>\n')
 
-papers = bibparse.parse_bib('../CurriculumVitae/publi/bredin.bib')
+papers = bibparse.parse_bib('../cv/publi/bredin.bib')
 inproceedings = [paper for paper in papers if paper.btype == 'inproceedings']
 articles = [paper for paper in papers if paper.btype == 'article']
 chapters = [paper for paper in papers if paper.btype == 'inbook']

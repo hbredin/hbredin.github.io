@@ -26,7 +26,7 @@
 import re
 import os
 
-from cStringIO import StringIO
+from io import StringIO
 
 class BibtexEntry:
 	def __init__(self, bibfile):
@@ -35,7 +35,7 @@ class BibtexEntry:
 		self.btype = ''
 		self.data['filename'] = bibfile
 
-	def getKey(self, key):		
+	def getKey(self, key):
 		if(key.lower().strip() == self.key.lower()):
 			return True
 
@@ -51,30 +51,30 @@ class BibtexEntry:
 					continue
 
 		return False
-	
+
 	def __get_pdf_name(self):
 		if len(self.key) == 0:
 			return None
-		
-		m = re.match('(.+/[^.]+)\\.bib', self.data['filename'])		
+
+		m = re.match('(.+/[^.]+)\\.bib', self.data['filename'])
 		if m == None:
 			return None
-		
+
 		filename = "%s/%s.pdf" % ( m.group(1).strip(), self.key.lower() )
 		if os.access(filename, os.O_RDONLY) == 1:
 			return filename
-		
-		return None		
-	
+
+		return None
+
 	def has_pdf(self):
 		return (self.__get_pdf_name() != None)
 
 	def export(self):
 		return self.__str__()
-		
+
 	def totext(self):
 		return
-		
+
 	def tohtml(self):
 		return
 
@@ -85,7 +85,7 @@ class BibtexEntry:
 
 		for k, v in self.data.iteritems():
 			result.write("\t%s = {%s},\n" % ( k.title().strip(), v.strip() ))
-		
+
 		filename =  self.__get_pdf_name()
 		if filename != None:
 			result.write("\tpdf-file = {%s},\n" % ( filename, ))

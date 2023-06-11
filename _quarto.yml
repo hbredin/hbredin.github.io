@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: Hervé Bredin
+  navbar:
+    right:
+      - about.qmd
+      - collab.qmd
+      - blog.qmd
+      - icon: github
+        href: https://github.com/hbredin
+      - icon: twitter
+        href: https://twitter.com/hbredin
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

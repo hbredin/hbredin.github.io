@@ -1,0 +1,50 @@
+---
+title: "Consulting"
+page-layout: article
+title-block-banner: true
+---
+
+### What?
+
+I propose (paid) scientific consulting services to companies willing to make the most of their data and open-source speech processing toolkits (and `pyannote` in particular).
+
+I have helped companies  
+
+* optimize pretrained speaker diarization pipelines for Japanase call center recordings
+* improve the accuracy of a streaming speaker diarization app
+* speed up (10x) speaker diarization web APIs without compromising performance
+* stay up to date with the latest speech processing technologies 
+
+### Why?
+
+* I created and maintain [pyannote](https://github.com/pyannote/pyannote-audio), the [most popular](https://gist.github.com/hbredin/405618b9843a7684b80cea7344145846) open-source speaker diarization framework
+  * [3.5K stars on Github](https://github.com/pyannote/pyannote-audio/stargazers)
+  * [30K+ monthly installs](https://pypistats.org/packages/pyannote-audio)
+
+* I train [popular](https://huggingface.co/models?other=audio&sort=downloads) speaker diarization models
+  * with [1M+ monthly downloads](https://huggingface.co/pyannote/segmentation) 
+  * 16K users or companies over the world (according to Huggingface stats)
+
+* I design speaker diarization pipelines for specific use cases, reaching [state-of-the-art](https://www.isca-speech.org/archive/interspeech_2023/bredin23_interspeech.html) performance
+  * 3rd place at [VoxSRC 2023](http://mm.kaist.ac.kr/datasets/voxceleb/voxsrc/interspeech2023.html) (YouTube videos)
+  * 6th place at [DISPLACE 2023](https://displace2023.github.io/) (hindi/English bilingual meetings)
+  * 1st place at [Ego4D 2022](https://ego4d-data.org/workshops/eccv22/) (egocentric videos)
+  * 1st place at [Albayzin 2022](http://catedrartve.unizar.es/albayzin2022.html) (TV and radio)
+
+* (I think) I know how to share my academic knowledge and technical expertise
+  * my (90min long) [introductory talk](https://umotion.univ-lemans.fr/video/9513-speech-segmentation-and-speaker-diarization/) at JSALT 2023 summer school
+  * my [blog post](posts/2022-12-02-how-I-won-2022-diarization-challenges.ipynb) explaining my winning submissions to the above challenges
+  * my growing list of [scientific publications](https://scholar.google.com/citations?user=l1AFL_AAAAAJ) 
+
+### How?
+
+We start by a free 30min intro chat to get know each other and both decide whether we want to work together.
+
+Once a mutual agreement is reached, we collaborate either synchronously (if time difference is reasonable) or asynchronously.
+
+* Asynchronously: we exchange via email (prefered) or messaging
+* Synchronously: we meet in Zoom or Teams and I do my best to offer possible solutions to your problems (this might also need some asynchronous research on my side)
+
+I charge by the hour (EUR200) and send invoices on a monthly basis.
+
+Drop me an email at `my-first-name-goes-here@niderb.fr` if interested (my parents went with _"herve"_)

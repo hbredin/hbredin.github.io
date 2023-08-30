@@ -7,6 +7,7 @@ website:
   navbar:
     right:
       - about.qmd
+      - consulting.qmd
       - collab.qmd
       - blog.qmd
       - icon: github

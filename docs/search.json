@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "consulting.html",
+    "href": "consulting.html",
+    "title": "Consulting",
+    "section": "",
+    "text": "What?\nI propose (paid) scientific consulting services to companies willing to make the most of their data and open-source speech processing toolkits (and pyannote in particular).\nI have helped companies\n\noptimize pretrained speaker diarization pipelines for Japanase call center recordings\nimprove the accuracy of a streaming speaker diarization app\nspeed up (10x) speaker diarization web APIs without compromising performance\nstay up to date with the latest speech processing technologies\n\n\n\nWhy?\n\nI created and maintain pyannote, the most popular open-source speaker diarization framework\n\n3.5K stars on Github\n30K+ monthly installs\n\nI train popular speaker diarization models\n\nwith 1M+ monthly downloads\n16K users or companies over the world (according to Huggingface stats)\n\nI design speaker diarization pipelines for specific use cases, reaching state-of-the-art performance\n\n3rd place at VoxSRC 2023 (YouTube videos)\n6th place at DISPLACE 2023 (hindi/English bilingual meetings)\n1st place at Ego4D 2022 (egocentric videos)\n1st place at Albayzin 2022 (TV and radio)\n\n(I think) I know how to share my academic knowledge and technical expertise\n\nmy (90min long) introductory talk at JSALT 2023 summer school\nmy blog post explaining my winning submissions to the above challenges\nmy growing list of scientific publications\n\n\n\n\nHow?\nWe start by a free 30min intro chat to get know each other and both decide whether we want to work together.\nOnce a mutual agreement is reached, we collaborate either synchronously (if time difference is reasonable) or asynchronously.\n\nAsynchronously: we exchange via email (prefered) or messaging\nSynchronously: we meet in Zoom or Teams and I do my best to offer possible solutions to your problems (this might also need some asynchronous research on my side)\n\nI charge by the hour (EUR200) and send invoices on a monthly basis.\nDrop me an email at my-first-name-goes-here@niderb.fr if interested (my parents went with “herve”)"
+  },
+  {
     "objectID": "posts/2021-08-05-Streaming-voice-activity-detection-with-pyannote.html",
     "href": "posts/2021-08-05-Streaming-voice-activity-detection-with-pyannote.html",
     "title": "Streaming voice activity detection with pyannote.audio",

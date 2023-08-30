@@ -15,14 +15,9 @@ title-block-banner: true
 *Publications:* [HAL](https://cv.archives-ouvertes.fr/hbredin) or [Google
 Scholar](https://scholar.google.com/citations?user=obEwWjZOI0cC)
 
-## Scientific advisor
+## Scientific consultant
 
-*Self-employed, [available](mailto:herve@niderb.fr) for contracting*
-
-* Machine learning
-* Deep learning
-* Speech processing
-* Natural language processing
+I propose (paid) scientific [consulting services](consulting.qmd) to companies willing to make the most of their data and open-source speech processing toolkits (and `pyannote` in particular).
 
 ## Open source developer
 

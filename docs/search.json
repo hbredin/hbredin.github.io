@@ -193,7 +193,7 @@
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "I received my PhD on talking-face biometric authentication from Telecom ParisTech (France) in 2007.\nIn 2008, I joined Dublin City University (Ireland) to work on video summarization techniques applied to user-generated content.\nI have been a permanent CNRS researcher since 2008:\n\nat IRIT (Toulouse, France) in the SAMoVA group until 2010\nat LIMSI (Orsay, France) in the Spoken Language Processing group until 2020\nback at IRIT (Toulouse, France) until today\n\nMy current research interests include deep learning techniques applied to machine listening, with a strong focus on speaker diarization: I am proud to be known as “the guy behind pyannote”.\nSince 2021, I propose (paid) scientific consulting services to companies willing to make the most of their data and open-source speech processing toolkits (and pyannote in particular)."
+    "text": "I received my PhD on talking-face biometric authentication from Telecom ParisTech (France) in 2007.\nIn 2008, I joined Dublin City University (Ireland) to work on video summarization techniques applied to user-generated content.\nI have been a permanent CNRS researcher since 2008:\nMy current research interests include deep learning techniques applied to machine listening, with a strong focus on speaker diarization: I am proud to be known as “the guy behind pyannote”.\nSince 2021, I propose (paid) scientific consulting services to companies willing to make the most of their data and open-source speech processing toolkits (and pyannote in particular)."
   },
   {
     "objectID": "about.html#biography",
@@ -215,5 +215,40 @@
     "title": "Blog",
     "section": "",
     "text": "Adapting pyannote.audio 2.1 pretrained speaker diarization pipeline to your own data\n\n\n\n\n\nHow I reached 1st place at Ego4D 2022, 1st place at Albayzin 2022, and 6th place at VoxSRC 2022 speaker diarization challenges\n\n\n\n\n\n\nDec 2, 2022\n\n\nHervé Bredin\n\n\n\n\n\n\n  \n\n\n\n\nOne speaker segmentation model to rule them all\n\n\n\n\n\nDeep dive into pyannote/segmentation pretrained model\n\n\n\n\n\n\nOct 23, 2022\n\n\nHervé Bredin\n\n\n\n\n\n\n  \n\n\n\n\nStreaming voice activity detection with pyannote.audio\n\n\n\n\n\nHacking with streamz library for real-time voice activity detection\n\n\n\n\n\n\nAug 5, 2021\n\n\nHervé Bredin\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#curriculum-vitae",
+    "href": "about.html#curriculum-vitae",
+    "title": "About me",
+    "section": "Curriculum vitae",
+    "text": "Curriculum vitae\n\nWork experience\n\n2019-today: Niderb Consulting / Auzeville-Tolosane, France\nScientific consultant. Self-employed. Helping companies make the most of their data and open-source speech processing toolkits (and pyannote in particular)\n\n\n2020-today: CNRS / IRIT / Toulouse, France\nResearch scientist. Member of the SAMoVA team. Speaker diarization\n\n\n2010-2020: CNRS / LIMSI (now LISN) / Orsay, France\nResearch scientist. Member of the TLP team. Speaker diarization\n\n\n2008-2010: CNRS / IRIT / Toulouse, France\nResearch scientist. Member of the SAMoVA team. Content-based video analysis\n\n\n2008: DCU /Dublin, Ireland\nPostdoctoral researcher. Member of the CDVP lab. Automatic summarization of user-generated content\n\n\n\nEducation\n\nPhD / 2004-2007 / Télécom Paris / Paris, France\nTalking-face biometrics\n\n\nMSc / 2001-2004 / Télécom Paris / Paris, France\nSignal processing and pattern recognition"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Scientific consultant. Self-employed. Helping companies make the most of their data and open-source speech processing toolkits (and pyannote in particular)\n\n\n\nResearch scientist. Member of the SAMoVA team. Speaker diarization\n\n\n\nResearch scientist. Member of the TLP team. Speaker diarization\n\n\n\nResearch scientist. Member of the SAMoVA team. Content-based video analysis\n\n\n\nPostdoctoral researcher. Member of the CDVP lab. Automatic summarization of user-generated content"
+  },
+  {
+    "objectID": "cv.html#work-experience",
+    "href": "cv.html#work-experience",
+    "title": "CV",
+    "section": "",
+    "text": "Scientific consultant. Self-employed. Helping companies make the most of their data and open-source speech processing toolkits (and pyannote in particular)\n\n\n\nResearch scientist. Member of the SAMoVA team. Speaker diarization\n\n\n\nResearch scientist. Member of the TLP team. Speaker diarization\n\n\n\nResearch scientist. Member of the SAMoVA team. Content-based video analysis\n\n\n\nPostdoctoral researcher. Member of the CDVP lab. Automatic summarization of user-generated content"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nPhD / 2004-2007 / Télécom Paris / Paris, France\nTalking-face biometrics.\n\n\nMSc / 2001-2004 / Télécom Paris / Paris, France\nSignal processing and pattern recognition"
+  },
+  {
+    "objectID": "cv.html#contact",
+    "href": "cv.html#contact",
+    "title": "CV",
+    "section": "Contact",
+    "text": "Contact\n\nPostal Address: IRIT, 118 Route de Narbonne, F-31062 Toulouse, Cedex, France\nOffice: IRIT1 219 (2nd floor)\nE-mail: herve.bredin@irit.fr\nTel: +33 (0)5 61 55 68 86"
   }
 ]

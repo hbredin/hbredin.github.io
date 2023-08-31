@@ -6,10 +6,10 @@ website:
   title: Hervé Bredin
   navbar:
     right:
-      - about.qmd
       - consulting.qmd
-      - collab.qmd
       - blog.qmd
+      - about.qmd
+      - collab.qmd
       - icon: github
         href: https://github.com/hbredin
       - icon: twitter

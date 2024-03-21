@@ -45,6 +45,6 @@ Once a mutual agreement is reached, we collaborate either synchronously (if time
 * Asynchronously: we exchange via email (prefered) or messaging
 * Synchronously: we meet in Zoom or Teams and I do my best to offer possible solutions to your problems (this might also need some asynchronous research on my side)
 
-I charge by the hour (EUR200) and send invoices on a monthly basis.
+I charge by the hour and send invoices on a monthly basis.
 
 Drop me an email at `my-first-name-goes-here@niderb.fr` if interested (my parents went with _"herve"_)

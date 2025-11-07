@@ -17,10 +17,6 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/herve-bredin
   google-analytics: "G-2N1PYH6CZP"
-format:
-  html:
-    theme: cosmo
-    css: styles.css
 
 
 

@@ -8,35 +8,23 @@ I received my PhD on talking-face biometric authentication from Telecom ParisTec
 
 In 2008, I joined Dublin City University (Ireland) to work on video summarization techniques applied to user-generated content.
 
-I have been a permanent CNRS researcher since 2008:
+I am currently on leave from CNRS where I have been a permanent researcher since 2008, working almost exclusively on speaker diarization and related tasks. I am proud to be known as *"the guy behind [pyannote](https://www.github.com/pyannote/pyannote-audio)"*
 
-* at [IRIT](https://www.irit.fr) (Toulouse, France) in the SAMoVA group until 2010
-* at [LIMSI](https://www.lisn.upsaclay.fr/) (Orsay, France) in the *Spoken Language Processing* group until 2020
-* back at [IRIT](https://www.irit.fr) (Toulouse, France) until today
-
-My current research interests include deep learning techniques applied to machine listening, with a strong focus on speaker diarization: I am proud to be known as *"the guy behind [pyannote](https://www.github.com/pyannote/pyannote-audio)"*.
-
-Since 2021, I propose (paid) scientific [consulting services](consulting.qmd) to companies willing to make the most of their data and open-source speech processing toolkits (and `pyannote` in particular).
-
-
-## Contact
-
-* Postal Address: IRIT, 118 Route de Narbonne, F-31062 Toulouse, Cedex, France
-* Office: IRIT1 219 (2nd floor)
-* E-mail: herve.bredin@irit.fr
-* Tel: +33 (0)5 61 55 68 86
-
+Since March 2025, I am Chief Science Officer and co-founder at [pyannoteAI](https://www.pyannote.ai). 
 
 ## Curriculum vitae
 
 ### Work experience
 
-#### 2019-today: [Niderb Consulting](consulting.qmd) / Auzeville-Tolosane, France
+#### March 2025 - today: [pyannoteAI](https://www.pyannote.ai)
 
-Scientific consultant. Self-employed.
-_Helping companies make the most of their data and open-source speech processing toolkits (and `pyannote` in particular)_
+Co-founder and Chief Science Officer.
 
-#### 2020-today: [CNRS](https://www.cnrs.fr) / [IRIT](https://www.irit.fr) / Toulouse, France
+#### March 2025 - today: [CNRS](https://www.cnrs.fr)
+
+On leave.
+
+#### 2020-March 2025: [CNRS](https://www.cnrs.fr) / [IRIT](https://www.irit.fr) / Toulouse, France
 
 Research scientist. Member of the SAMoVA team.
 _Speaker diarization_

@@ -6,14 +6,16 @@ website:
   title: Hervé Bredin
   navbar:
     right:
-      - consulting.qmd
-      - blog.qmd
+      # - consulting.qmd
       - about.qmd
-      - collab.qmd
+      - blog.qmd
+      # - collab.qmd
       - icon: github
         href: https://github.com/hbredin
       - icon: twitter
         href: https://twitter.com/hbredin
+      - icon: linkedin
+        href: https://www.linkedin.com/in/herve-bredin
   google-analytics: "G-2N1PYH6CZP"
 format:
   html:
